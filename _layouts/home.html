@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap" rel="stylesheet"> 
+        <style>
+            body { background: #88c0d0; }
+            .jellyfish {
+                padding: 24px;
+                border-radius: 256px 256px 8px 8px;
+                position: absolute;
+                z-index: 2;
+            }
+            .eyes {
+                display: flex;
+                flex-direction: row;
+                margin: 0 16px;
+                margin-top: 48px;
+                align-items: center;
+            }
+            .eyes :first-child {
+                flex-grow: 1;
+                text-align: center;
+                margin: 0;
+                margin-top: -48px;
+            }
+            .small .eyes :first-child {
+                margin-top: 0;
+            }
+            .eyes::before, .eyes::after {
+                flex-shrink: 0;
+                flex-basis: 16px;
+                content: " ";
+                border: 8px solid #d8dee9;
+                background: #4c566a;
+                border-radius: 16px;
+                height: 16px; width: 16px;
+                display: inline-block;
+            }
+            .big {
+                width: 320px;
+                height: 320px; }
+            .medium {
+                width: 256px;
+                height: 256px;
+            }
+            .small {
+                width: 160px;
+                height: 160px;
+                padding: 16px;
+            }
+            .small .eyes {
+                margin: 0; }
+
+            .tent-l, .tent-r, .tent-c, .tent-cl ,.tent-cr {
+                position: absolute;
+                bottom: -64px;
+                width: 32px;
+                height: 96px;
+                background: inherit;
+                border-radius: 32px;
+                z-index: -1;
+            }
+            .tent-l {
+                left: 32px; }
+            .small .tent-l { left: 24px; }
+            .tent-r { right: 32px }
+            .small .tent-r { right: 24px; }
+            .tent-cl { left: 38%; margin-left: -16px; } /* center left; position left 38% but then move right by half the width (margin-left: -16px) */
+            .tent-cr { right: 38%; margin-right: -16px; } /* center right; same method as center left */
+            .tent-c { left: 50%; margin-left: -16px; } /* center; same method as center left */
+
+            body {
+                width: 768px;
+            }
+        </style>
+    </head>
+    <body>
+        <main style="position:relative">
+            <div class="jellyfish big bg-orange" style="left: 0; top: 64px">
+                <div class="eyes">
+                    <h2>Engineering</h2>
+                </div>
+                <p>Every year, we design and build a new robot for the FIRST Tech Challenge competition.
+                    After brainstorming, we use computer aided design (CAD) to model our robot digitally.
+                    Then, we physically build the robot before testing to see its flaws. We then adjust and repeat.
+                    This process is documented in our Engineering Portfolio, which we release publicly.
+                </p>
+                <div align="center"><a class="button" href="/engineering">CAD</a> <a class="button" href="/engineering">Notebook</a></div>
+                <div class="tent-l"></div>
+                <div class="tent-r"></div>
+                <div class="tent-cl"></div>
+                <div class="tent-cr"></div>
+            </div>
+
+            <div class="jellyfish medium bg-blue" style="right: 32px; top: 96px; z-index: 3">
+                <div class="eyes">
+                    <h2>About</h2>
+                </div>
+                <div style="margin:8px 0">We are FTC Team 4654 "The Jellyfish" from Blind Brook High School, New York.
+                We participate in the <a href="https://www.firstinspires.org/robotics/ftc">FIRST Tech Challenge</a>, an annual
+                robotics competition in which teams compete for awards and placement to Worlds.
+                </div>
+                <div align="center"><a class="button" href="/about/team" style="margin-bottom:8px">Meet the Team</a> <a class="button" href="/about">About Us</a></div>
+                <div class="tent-l"></div>
+                <div class="tent-r"></div>
+                <div class="tent-c"></div>
+            </div>
+
+            <div class="jellyfish big bg-green" style="right: 0; top: 448px">
+                <div class="eyes" style="margin-top:72px">
+                    <h2>Programming</h2>
+                </div>
+                <p>For the yearly FIRST Tech Challenge, we write code for the autonomous and driver-controlled periods of the game, which we release to the public.
+                We also provide documentation and explanations for algorithms we use, as well as a robot simulator.
+                </p>
+                <div align="center"><a class="button" href="https://github.com/jellyfish4654">GitHub</a></div>
+                <div class="tent-l"></div>
+                <div class="tent-r"></div>
+                <div class="tent-cl"></div>
+                <div class="tent-cr"></div>
+            </div>
+
+            <div class="jellyfish big bg-purple" style="left: 0; top: 512px">
+                <div class="eyes">
+                    <h2>Outreach</h2>
+                </div>
+                <div style="margin-top: 16px">
+                    To promote STEM throughout the commmunity, we run several
+                    <div class="jellyfish small bg-red" style="position:relative; float:right; margin: 8px;">
+                        <div class="eyes">
+                            <h3>Junior Jellies</h3>
+                        </div>
+                        <div>JJE is a program designed to teach 4th and 5th graders basic engineering skills.</div>
+                        <div align="center"><a class="button" href="/jje">Sign Up</a></div>
+                        <div class="tent-l"></div>
+                        <div class="tent-r"></div>
+                        <div class="tent-c"></div>
+                    </div> 
+                    STEM-oriented programs aimed at teaching engineering, programming, and leadership skills.
+                    <div align="center" style="margin-top:8px"><a class="button" href="/jje">Outreach</a></div>
+                </div>
+                <div class="tent-l"></div>
+                <div class="tent-r"></div>
+                <div class="tent-cl"></div>
+                <div class="tent-cr"></div>
+            </div>
+        </main>
+    </body>
+</html>

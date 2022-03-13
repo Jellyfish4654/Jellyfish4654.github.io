@@ -3,9 +3,29 @@ body {
     width: 1024px;
     background-color: #2e3440;
     color: #eceff4;
+    font-size: 16px;
     font-family: 'Fredoka', sans-serif;
 }
 
 h1 {
     text-align: center;
+}
+
+.bg-red { background: #bf616a; }
+.bg-orange { background: #d08770; }
+.bg-yellow { background: #ebcb8b; }
+.bg-green { background: #9eb787; } /* a little bit darker */
+.bg-purple { background: #b48ead; }
+.bg-teal { background: #8fbcbb; }
+.bg-blue { background: #81a1c1; }
+
+a { color: #5e81ac; }
+
+.button {
+    background: #5e81ac;
+    border-radius: 32px;
+    display: inline-block;
+    text-decoration: none;
+    color: #eceff4 !important;
+    padding: 8px 16px;
 }

@@ -68,11 +68,8 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-<<<<<<< HEAD
   x64-mingw-ucrt
-=======
   ruby
->>>>>>> 0fa93f8f988255f1f1ab38503eabc197c798fe74
   x86_64-linux
 
 DEPENDENCIES
@@ -83,11 +80,7 @@ DEPENDENCIES
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
-<<<<<<< HEAD
   webrick (~> 1.7)
-=======
-  webrick
->>>>>>> 0fa93f8f988255f1f1ab38503eabc197c798fe74
 
 BUNDLED WITH
    2.3.9

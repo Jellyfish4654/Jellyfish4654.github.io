@@ -4,3 +4,7 @@
 
 layout: default
 ---
+
+Hello! Welcome to the website!
+
+Allen was here

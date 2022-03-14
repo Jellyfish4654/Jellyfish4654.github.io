@@ -1,10 +1,11 @@
 body {
     margin: auto;
-    width: 1024px;
+    max-width: 1024px;
     background-color: #2e3440;
     color: #eceff4;
     font-size: 16px;
     font-family: 'Fredoka', sans-serif;
+    padding: 16px;
 }
 
 h1 {

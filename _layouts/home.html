@@ -82,18 +82,21 @@
 
             /*mobile? A WORK IN PROGRESS LMAOOO*/
             @media screen and (max-width: 320px) { 
+                body { display: flex; }
+
                 .jellyfish{
                     position: relative;
                     top: 0;
                     left: 0;
                     bottom: 0;
                     flex-flow: column wrap;
-                    width: auto;
+                    font-size: 14px;
+                    height: auto;
                 }
 
-                .big { max-width: 280px; max-height: 280px; }
-                .medium { max-width: 216px; max-height: 216px; }
-                .small { max-width: 160px; max-height: 160px; }
+                .big { max-width: 280px; }
+                .medium { max-width: 216px; }
+                .small { max-width: 160px; }
             }
             
         </style>

@@ -8,6 +8,35 @@
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
+            @keyframes eye-blink {
+                from, 10%, to {
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 24px;
+                    border-top-width: 8px;
+                    border-bottom-width: 8px;
+                    outline-width: 0;
+                }
+
+                1%, 9% {
+                    width: 12px;
+                    height: 2px;
+                    border-top-width: 6px;
+                    border-bottom-width: 6px;
+                    outline-width: 0;
+                    margin-left: 0; margin-right: 0; /* make up for lost width */
+                }
+
+                2%, 8% {
+                    border-top-width: 0;
+                    border-bottom-width: 0;
+                    height: 0;
+                    width: 4px;
+                    margin-left: 4px; margin-right: 4px; /* make up for lost width */
+                    outline-width: 2px;
+                }
+            }
+
             body { background: #81a1c1; }
             .jellyfish {
                 padding: 24px;
@@ -20,9 +49,10 @@
             .eyes {
                 display: flex;
                 flex-direction: row;
-                margin: 0 16px;
+                margin: 8px 16px;
                 margin-top: 48px;
                 align-items: center;
+                height: 32px;
             }
             .eyes :first-child {
                 flex-grow: 1;
@@ -30,19 +60,37 @@
                 margin: 0;
                 margin-top: -48px;
             }
+            .small .eyes {
+                margin: 0;
+                margin-bottom: 8px; }
             .small .eyes :first-child {
-                margin-top: 0;
-            }
+                margin-top: 0; }
             .eyes::before, .eyes::after {
                 flex-shrink: 0;
-                flex-basis: 16px;
                 content: " ";
-                border: 8px solid #d8dee9;
-                background: #4c566a;
-                border-radius: 16px;
-                height: 16px; width: 16px;
                 display: inline-block;
-            }
+                font-size: 0;
+                border: 8px solid #d8dee9;
+                outline: 0px solid #4c566a;
+                background: #5e81ac;
+                border-radius: 16px;
+                height: 12px; width: 12px;
+                display: inline-block;
+
+                animation-duration: 5s;
+                animation-name: eye-blink;
+                animation-iteration-count: infinite;
+                animation-timing-function: steps(2, start); }
+            /* stagger animations, otherwise jellyfish all blink together... */
+            .bg-red .eyes::before, .bg-red .eyes::after { animation-delay: 945ms; animation-duration: 11s; }
+            .bg-orange .eyes::before, .bg-orange .eyes::after { animation-delay: 4345ms; }
+            .bg-yellow .eyes::before, .bg-yellow .eyes::after { animation-delay: 6406ms; animation-duration: 10.5s; }
+            .bg-green .eyes::before, .bg-green .eyes::after { animation-delay: 1769ms; }
+            .bg-teal .eyes::before, .bg-teal .eyes::after { animation-delay: 3980ms; animation-duration: 11s; }
+            .bg-blue .eyes::before, .bg-blue .eyes::after { animation-delay: 1283ms; animation-duration: 10.5s; }
+            .bg-purple .eyes::before, .bg-purple .eyes::after { animation-delay: 1568ms; }
+            
+            
             .big {
                 width: 320px;
                 height: 320px; }
@@ -55,8 +103,6 @@
                 height: 160px;
                 padding: 16px;
             }
-            .small .eyes {
-                margin: 0; }
 
             .tent-l, .tent-r, .tent-c, .tent-cl ,.tent-cr {
                 position: absolute;

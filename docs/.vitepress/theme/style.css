@@ -83,7 +83,3 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
-
-.home .hero .name {
-  white-space: pre;
-}

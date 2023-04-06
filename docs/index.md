@@ -8,7 +8,7 @@ hero:
   Jellyfish"
   text: FTC Team 4654
   image:
-    src: "https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/logo.png"
+    src: "https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/logo-1.png"
   actions:
     - theme: brand
       text: About Us

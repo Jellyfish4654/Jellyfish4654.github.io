@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 title: Home
+  
+
+  
 hero:
   name: Jellyfish
   text: FTC Team 4654

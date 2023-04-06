@@ -3,9 +3,9 @@
 layout: home
 title: Home
 hero:
-  name: {
-    white-space: Jellyfish
-  }
+  name:  
+    
+  Jellyfish
   text: FTC Team 4654
   image:
     src: "https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/logo.png"

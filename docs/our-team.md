@@ -118,10 +118,10 @@ Our team, 4654, was founded in 2010 and we are proud to compete in the NY Excels
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Find out more information about [FIRST](https://www.firstinspires.org/robotics/ftc).
+Find out more information about [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc).
 
 </div>
 
-## Our Team
+## Our Team <Badge type="warning" text="beta" />
 
 <VPTeamMembers size="medium" :members="members" />

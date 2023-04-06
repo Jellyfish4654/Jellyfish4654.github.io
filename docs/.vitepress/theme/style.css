@@ -38,8 +38,8 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
+  --vp-home-hero-text-color: transparent;
+  --vp-home-hero-text-background: -webkit-linear-gradient(
     120deg,
     #88C0D0 30%,
     #88C0D0

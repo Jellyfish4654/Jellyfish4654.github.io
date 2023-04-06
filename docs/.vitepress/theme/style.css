@@ -84,6 +84,7 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
-.home .hero .description {
+.home .hero .name {
+  white-space: pre;
   white-space: pre;
 }

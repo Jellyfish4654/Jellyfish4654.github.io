@@ -1,3 +1,4 @@
+# Our Team
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
@@ -15,8 +16,6 @@ const members = [
   }
 ]
 </script>
-
-# Our Team
 
 ## First Tech Challenge
 

@@ -5,7 +5,6 @@ title: Home
 hero:
   name: "
   
-  
   Jellyfish"
   text: FTC Team 4654
   image:

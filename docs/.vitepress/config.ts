@@ -2,9 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Junior Jellies",
+  title: "Jellyfish",
   description: "Presented by FTC Team #4654 Jellyfish",
-  base: '/juniorjellies/',
   head: [
     ['link', { rel: "icon", href: "https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/favicon.ico"}],
   ],

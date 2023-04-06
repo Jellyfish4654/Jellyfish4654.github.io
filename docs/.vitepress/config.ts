@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Jellyfish",
   description: "Presented by FTC Team #4654 Jellyfish",
+  base: '/',
   head: [
     ['link', { rel: "icon", href: "https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/favicon.ico"}],
   ],

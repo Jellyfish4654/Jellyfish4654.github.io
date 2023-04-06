@@ -1,3 +1,28 @@
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/kiaking.png',
+    name: 'Kia King Ishii',
+    title: 'Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/kiaking' },
+      { icon: 'twitter', link: 'https://twitter.com/KiaKing85' }
+    ]
+  }
+]
+</script>
+
 # Our Team
 
 ## First Tech Challenge
@@ -14,4 +39,4 @@ Find out more information about [FIRST](https://www.firstinspires.org/robotics/f
 
 ## Our Team
 
-# Our Team
+<VPTeamMembers size="medium" :members="members" />

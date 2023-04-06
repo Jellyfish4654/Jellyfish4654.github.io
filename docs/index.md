@@ -11,9 +11,6 @@ hero:
   actions:
     - theme: brand
       text: About Us
-      link: /mission-statement
-    - theme: alt
-      text: Curriculum
-      link: /java/getting-started
+      link: /our-team
 ---
 

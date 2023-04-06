@@ -32,7 +32,7 @@ function sidebarDocs() {
   return [
     {
       text: 'Getting Started',
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: 'Jargon',
@@ -42,7 +42,7 @@ function sidebarDocs() {
     },
     {
       text: 'Competitions',
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: 'Tournaments',
@@ -52,7 +52,7 @@ function sidebarDocs() {
     },
     {
       text: 'Engineering',
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: 'Electronics',
@@ -62,11 +62,11 @@ function sidebarDocs() {
     },
     {
       text: 'Software',
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: 'Java Lessons',
-          collapsed: true,
+          collapsed: false,
           items: [
             {
               text: 'Getting Started Exercises',
@@ -78,7 +78,7 @@ function sidebarDocs() {
     },
     {
       text: 'Useful Resources',
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: 'Resources',

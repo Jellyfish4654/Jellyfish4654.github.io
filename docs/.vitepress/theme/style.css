@@ -38,13 +38,8 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-home-hero-text-color: transparent;
-  --vp-home-hero-text-background: -webkit-linear-gradient(
-    120deg,
-    #88C0D0 30%,
-    #88C0D0
-  );
-
+  --vp-home-hero-name-color: #88C0D0;
+  --vp-home-hero-text-color: #88C0D0;
   --vp-home-hero-image-filter: blur(15px);
 }
 

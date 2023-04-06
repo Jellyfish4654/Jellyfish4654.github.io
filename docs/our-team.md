@@ -4,21 +4,15 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
     avatar: 'https://github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
+    name: 'Elliot Zheng',
+    title: 'Administrative President',
+    desc: 'Elliot Zheng, President, is a senior and it’s his fourth year on the team. He enjoys playing clarinet, playing video games, building computers, coding and has a passion for Electric Vehicles. He also has a cat named Lumi and a doggo named Zelda.'
   },
   {
-    avatar: 'https://github.com/kiaking.png',
-    name: 'Kia King Ishii',
-    title: 'Developer',
-    links: [
-      { icon: 'github', link: 'https://github.com/kiaking' },
-      { icon: 'twitter', link: 'https://twitter.com/KiaKing85' }
-    ]
+    avatar: 'https://github.com/yyx990803.png',
+    name: 'Michael Oh',
+    title: 'Building President',
+    desc: 'Michael Oh, President, is a senior.'
   }
 ]
 </script>

@@ -15,33 +15,32 @@ The sum of the integers is 28.
 
 ::: tip Output:
 Please enter 4 integers.  
-12 3 13 90 // User Input
+12 3 13 90 // User Input  
 90	13 3 12
 :::
 
 3. Write a program that prompts the user to enter the number of even integers they want to generate. The program should then output the requested number of even integers.  
 
 ::: tip Output:
-How many even integers would you like displayed?
-9 // User input
+How many even integers would you like displayed?  
+9 // User input  
 2 4 6 8 10 12 14 16 18
-
 :::
 
 4. Write a program that prompts the user to enter a sentence.  The program should output the sentence reversed.  Use an array of Strings that holds one letter in each spot of the array.  
 
 ::: tip Output:
-Please enter a sentence.
-I love junior Jellies! // User input
+Please enter a sentence.  
+I love junior Jellies! // User input  
 !seilleJ roinuj evol I
 :::
 
 5. Write a program that prompts the user to enter some integers.  The integers should be stored in an array.  The program should output the 2 highest integers, first the 2nd highest, then the highest.  
 
 ::: tip Output:
-How many integers would you like to enter?
-7
-Please enter the integers.
-55 4 32 99 103 41 18
+How many integers would you like to enter?  
+7  
+Please enter the integers.  
+55 4 32 99 103 41 18  
 The two highest integers are 99 and 103.
 :::

@@ -1,0 +1,3 @@
+# Index
+
+This document provides a comprehensive guide for new members, addressing the scarcity of physical resources and scattered online information. New members often lack knowledge and require mentorship, which can be challenging while preparing for competitions. To address these challenges, this guide offers a starter's guide to the hardware and software used in FTC, providing valuable information to help new members get started.

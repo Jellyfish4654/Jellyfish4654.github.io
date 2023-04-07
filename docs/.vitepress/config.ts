@@ -35,6 +35,10 @@ function sidebarDocs() {
       collapsed: false,
       items: [
         {
+          text: 'Index',
+          link: '/docs/index',
+        },
+        {
           text: 'Jargon',
           link: '/docs/jargon',
         }
@@ -71,6 +75,26 @@ function sidebarDocs() {
             {
               text: 'Getting Started Exercises',
               link: '/docs/java/getting-started',
+            },
+            {
+              text: 'Variables & Input',
+              link: '/docs/java/variables-input',
+              items: [
+                {
+                  text: 'Variables & Input Exercises',
+                  link: '/docs/java/d1-exercises',
+                }
+              ]
+            },
+            {
+              text: 'Methods Part I',
+              link: '/docs/java/methods-part1',
+              items: [
+                {
+                  text: 'Methods Part I Exercises',
+                  link: '/docs/java/d2-exercises',
+                }
+              ]
             }
           ]
         }

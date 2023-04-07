@@ -12,7 +12,8 @@ Wiring is extremely important in FTC, but is often overlooked or hastily done th
 - Keep wires tucked away from moving parts
 - Make wires as short as possible to reduce the risk of entanglement
 
-Read this wiring guide provided by First for additional information: [First Wiring Guide](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf)
+Read this wiring guide provided by First for additional information:  
+[First Wiring Guide](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf)
 
 ## Electrostatic Discharge (ESD)
 
@@ -31,6 +32,6 @@ Check out this guide for more information on how to prevent ESD:
 ## REV Hub Disconnects
 REV Hubs have a tendency to disconnect. Generally, this is caused by the XT30 connectors wearing out. Over time, the pins on the XT30 connector of your Control Hub can become compressed.To remedy this, use flat-head screwdriver to separate the tines.  
 Look at this guide from REV on how to do this:  
-[Fix Disconnect Guide](https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/control-hub-troubleshooting#xt30-pins-are-compressed)
+[Fix Disconnect Guide](https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/control-hub-troubleshooting#xt30-pins-are-compressed)  
 You should also 3D print strain relief connectors on the Expansion Hub to prevent XT30 disconnects:  
  [Strain Relief Connector Model](https://www.thingiverse.com/thing:2887045)

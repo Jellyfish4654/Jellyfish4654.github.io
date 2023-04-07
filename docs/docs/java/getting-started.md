@@ -16,7 +16,7 @@ public class Main {
 }
 ```
 
-:::tip Note
+::: tip Note
 You can name it anything, but for consistency, Main will be used.  
 Additionally, to see the output of the code, you must open the terminal.
 :::

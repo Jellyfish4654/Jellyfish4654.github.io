@@ -95,6 +95,36 @@ function sidebarDocs() {
                   link: '/docs/java/d2-exercises',
                 }
               ]
+            },
+            {
+              text: 'Conditional Statements',
+              link: '/docs/java/conditional-statements',
+              items: [
+                {
+                  text: 'Conditional Statements Exercises',
+                  link: '/docs/java/d3-exercises',
+                }
+              ]
+            },
+            {
+              text: 'Loops',
+              link: '/docs/java/loops',
+              items: [
+                {
+                  text: 'Conditional Statements Exercises',
+                  link: '/docs/java/d4-exercises',
+                }
+              ]
+            },
+            {
+              text: 'Arrays',
+              link: '/docs/java/arrays',
+              items: [
+                {
+                  text: 'Arrays Exercises',
+                  link: '/docs/java/d5-exercises',
+                }
+              ]
             }
           ]
         }

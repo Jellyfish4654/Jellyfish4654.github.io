@@ -58,7 +58,7 @@ Sorry, the correct number is 4.
 Enter a number.  
 2 // User input  
 Enter the type of operation you want to perform (+, -, *, /, %).  
-* //  User input  
+\* //  User input  
 Enter a second number.  
 5 // User input  
 Your Answer is = 10.0

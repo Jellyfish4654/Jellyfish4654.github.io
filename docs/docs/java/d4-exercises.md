@@ -64,15 +64,15 @@ Rock smashes scissors! You win!"
 
 ::: tip Output:
 Enter a number.  
-50  
+50 // User input    
 Too low  
 Enter a number.  
-75  
+75 // User input  
 Too high  
 Enter a number.  
-60  
+60 // User input  
 Too high  
 Enter a number.  
-54  
+54 // User input  
 Correct! It took you four tries
 :::

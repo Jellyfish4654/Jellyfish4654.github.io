@@ -3,11 +3,11 @@
 1. Write a program that generates 5 random integers between 1 and 10 and stores them in an array. Use a for loop to fill each element of the array with a randomly generated integer. Then, use another for loop to output each element of the array. Additionally, the program should output the sum of the integers.  
 
 ::: tip Output:
-5  
-8  
-1  
-4  
-10  
+5 // User input  
+8 // User input  
+1 // User input  
+4 // User input  
+10 // User input  
 The sum of the integers is 28.
 :::
 
@@ -39,8 +39,8 @@ I love junior Jellies! // User input
 
 ::: tip Output:
 How many integers would you like to enter?  
-7  
+7 // User input  
 Please enter the integers.  
-55 4 32 99 103 41 18  
+55 4 32 99 103 41 18 // User input  
 The two highest integers are 99 and 103.
 :::

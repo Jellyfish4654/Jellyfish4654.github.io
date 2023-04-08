@@ -125,6 +125,16 @@ function sidebarDocs() {
                   link: '/docs/java/d5-exercises',
                 }
               ]
+            },
+            {
+              text: 'Methods Part II',
+              link: '/docs/java/methods-part2',
+              items: [
+                {
+                  text: 'Methods Part II Exercises',
+                  link: '/docs/java/d6-exercises',
+                }
+              ]
             }
           ]
         }

@@ -45,7 +45,7 @@ java is not a palindrome.
 
 ::: tip Output 2:
 Please enter a word.  
-Kayak (user)  
+Kayak // User input   
 Kayak is a palindrome.
 :::
 

@@ -32,11 +32,7 @@ Enter an integer with 3 digits.
 321
 :::
 
-::: details Hint:
-Use the / and % operators to reverse the order of the digits.
-:::
-
-4. Write a program that prompts the user to enter the length and width of a rectangle as integers.  The program should output the perimeter and area of the rectangle.  
+1. Write a program that prompts the user to enter the length and width of a rectangle as integers.  The program should output the perimeter and area of the rectangle.  
 Output:
 ```
 Enter the length of the rectangle.  

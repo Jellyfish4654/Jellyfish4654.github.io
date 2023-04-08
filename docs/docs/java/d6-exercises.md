@@ -27,3 +27,47 @@ Enter temperature in Celsius:
 :::
 
 4. Create a program that simulates a game of tic-tac-toe between two players. The program should display the game board and prompt the players to enter their moves. The program should determine when the game is over and display the winner.
+
+::: details Output:
+Player X, enter your move (row col): 1 1  
+-------------  
+|   |   |   |  
+-------------  
+|   | X |   |  
+-------------  
+|   |   |   |  
+-------------  
+Player O, enter your move (row col): 0 1  
+-------------  
+|   | O |   |  
+-------------  
+|   | X |   |  
+-------------  
+|   |   |   |  
+-------------   
+Player X, enter your move (row col): 1 0  
+-------------  
+|   | O |   |  
+-------------  
+| X | X |   |  
+-------------  
+|   |   |   |  
+-------------  
+Player O, enter your move (row col): 0 0  
+-------------  
+| O | O |   |  
+-------------  
+| X | X |   |  
+-------------  
+|   |   |   |  
+-------------  
+Player X, enter your move (row col): 1 2  
+-------------  
+| O | O |   |  
+-------------  
+| X | X | X |  
+-------------  
+|   |   |   |  
+-------------  
+Player X wins!
+:::

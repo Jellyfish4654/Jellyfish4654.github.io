@@ -26,7 +26,7 @@ Additionally, to see the output of the code, you must open the terminal.
 Java can do math:
 
 ```java
-public class A {
+public class Main {
 	public static void main(String[] args) {
 		System.out.println(1 + 2 - 5);
 		System.out.println(3 * 4);

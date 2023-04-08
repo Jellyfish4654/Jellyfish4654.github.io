@@ -45,7 +45,7 @@ A final variable cannot be reassigned or changed after its initial assignment. T
 
 In a terminal-based program, three files are pre-opened: stdout (output), stderr (output for errors), and stdin (input). Typically, stdout is used for normal output, while stderr is used for error logging. Although they appear identical in the terminal, their distinction can be useful for shell piping.
 
-To write to stdout, use `System.out.println(*Expression*)`, which writes EXPRESSION to the stdout file.  
+To write to stdout, use `System.out.println(*Expression*)`, which writes "Expression" to the stdout file.  
 To write to stderr, use `System.err.println(*Expression*)`.
 
 ::: tip Note:

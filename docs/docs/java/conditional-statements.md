@@ -10,7 +10,7 @@ if (condition) {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/docs/if-statement.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/if-statement.PNG" style="width:50%;height:50%;"> 
 
 ## The else Statement
 
@@ -24,7 +24,7 @@ if (condition) {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/docs/else-statement.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/else-statement.PNG" style="width:50%;height:50%;"> 
 
 ## The else if Statement
 
@@ -38,7 +38,7 @@ if (condition1) {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/docs/else-if-statement.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/else-if-statement.PNG" style="width:50%;height:50%;"> 
 
 `else if` clauses can be chained. At the end of the chain, an optional `else` clause can be present.
 
@@ -56,7 +56,7 @@ if (condition1) {
 
 ## The Switch Statement
 
-Switch statements allow you to execute a code block based on the value of a specific expression. However, they can only be used with primitive types. Instead of writing many if/else if statements, you should use the switch statement.
+Switch statements allow you to execute a code block based on the value of a specific expression. However, they can only be used with primitive types. Instead of writing many `if/else if statements`, you should use the switch statement.
 
 ```java
 switch (value) {

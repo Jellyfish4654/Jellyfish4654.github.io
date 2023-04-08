@@ -79,13 +79,15 @@ Floating-point stores fractional numbers (e.g., `1.0`).
 
 Java has several basic math operators.
 
-| Operator | What it does |
-|---|---|
-| a + b | adds two numbers |
-| a - b | subtracts two numbers |
-| a * b | multiplies two numbers |
-| a / b | divides two numbers |
-| a % b | modulo: takes the remainder of a / b |
+| Operator  |  Name  |  What it does |  Examples |
+|---|---|---|---|
+| + |  Addition  |  Add together two values  |  x + y |
+| - |  Subtraction |  Subtracts one value from another  |  x - y  |
+| * |  Multiplication |  Multiplies two values  |  x * y |
+| / |  Division |  Divides one value by another  |  x / y |
+| % |  Modulus |  Returns the division remainder  |  x % y |
+| ++ |  Increment |  Increases the value of a variable by 1  |  x++ |
+| -- |  Decrement |  Decreases the value of a variable by 1 |  x\-\- |
 
 In the table above, the placeholders "a" and "b" are known as operands. Their data types determine the data type of the entire expression. The rules are as follows:
 - If any operand is double, the entire expression is double.
@@ -97,7 +99,7 @@ When both operands are integers, the division operator (/) rounds down to the ne
 
 ### Text 
 
-In Java, the ``String` data type represents text and is enclosed in double quotes. Meanwhile, the `char` data type represents a single character enclosed in single quotes. 
+In Java, the `String` data type represents text and is enclosed in double quotes. Meanwhile, the `char` data type represents a single character enclosed in single quotes. 
 
 **String Concatenation** 
 `String` values can be concatenated using the + operator. 

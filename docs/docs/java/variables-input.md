@@ -16,21 +16,21 @@ The only exception to this convention is for loop counter variables such as `i`,
 To create a variable, use a variable declaration in the following format:
 
 ```java
-`data_type variable_name;`
+data_type variable_name;
 ``` 
 
 For example, the statements "String word;" and "int age;" create two variables named "word" and "age", respectively, with contents that are Strings and ints.  
 To change a variable's contents, use assignment with the format:
 
 ```java
-`variable_name = expression;`
+variable_name = expression;
 ``` 
 
 For instance, "word = 'hello world!'" and "age = (5 + 3 + 2) / 7;" would update the contents of "word" and "age".  
 You can declare and assign a variable in one statement using the following format:
 
 ```java
-`data_type variable_name = expression;
+data_type variable_name = expression;
 ``` 
 
 ```java

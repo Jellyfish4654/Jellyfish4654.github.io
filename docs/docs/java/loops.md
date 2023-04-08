@@ -32,7 +32,7 @@ while (i <= 10) {
 10
 :::
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/while.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/while.PNG" style="width:50%;height:50%;"> 
 
 ## Break Statement
 
@@ -61,7 +61,7 @@ while (i < 10) {
 4
 :::
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/break.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/break.PNG" style="width:50%;height:50%;"> 
 
 ## Continue Statement
 
@@ -91,7 +91,7 @@ while (i < 6) {
 5
 :::
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/continue.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/continue.PNG" style="width:50%;height:50%;"> 
 
 ## Do/While Loops
 
@@ -126,7 +126,7 @@ while (i <= 10);
 10
 :::
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/docs/do-while.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/do-while.PNG" style="width:50%;height:50%;"> 
 
 ## For Loops
 
@@ -158,4 +158,4 @@ for (int i = 0; i <= 10; i++) {
 10
 :::
 
-<img src="https://raw.githubusercontent.com/Jellyfish4654/juniorjellies/main/docs/assets/docs/for.PNG" style="width:50%;height:50%;"> 
+<img src="https://raw.githubusercontent.com/Jellyfish4654/Jellyfish4654.github.io/master/docs/assets/docs/for.PNG" style="width:50%;height:50%;"> 

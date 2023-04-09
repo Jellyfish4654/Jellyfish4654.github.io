@@ -122,6 +122,6 @@ Find out more information about [FIRST Tech Challenge](https://www.firstinspires
 
 </div>
 
-## Our Team <Badge type="warning" text="beta" />
+## Meet the Team <Badge type="warning" text="beta" />
 
 <VPTeamMembers size="medium" :members="members" />

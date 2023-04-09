@@ -134,6 +134,16 @@ function sidebarDocs() {
                   link: '/docs/java/d6-exercises',
                 }
               ]
+            },
+            {
+              text: 'Classes',
+              link: '/docs/java/classes',
+              items: [
+                {
+                  text: 'Classes Exercises',
+                  link: '/docs/java/d7-exercises',
+                }
+              ]
             }
           ]
         }

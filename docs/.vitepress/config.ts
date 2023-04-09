@@ -21,6 +21,7 @@ export default defineConfig({
 function nav() {
   return [
     { text: 'Our Team', link: '/our-team' },
+    { text: 'Sponsors', link: '/sponsors' },
     { text: 'Outreach', link: '/outreach' },
     { text: 'Junior Jellies', link: 'https://jellyfish4654.github.io/juniorjellies/' },
     { text: 'Contact', link: 'mailto:bbhsrobotics4654@gmail.com' },

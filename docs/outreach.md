@@ -9,7 +9,3 @@ Our team has thrived by organizing Junior Jellies, a student-centered afterschoo
 Learn more about [Junior Jellies](https://jellyfish4654.github.io/juniorjellies/)!
 
 </div>
-
-## Mentors <Badge type="warning" text="beta" />
-
-## Social Media <Badge type="warning" text="beta" />

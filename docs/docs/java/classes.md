@@ -172,3 +172,7 @@ public class Main {
     }
 }
 ```
+
+## Null
+
+`null` is a special value that represents the absence of a value or reference. It is used to indicate that a variable or object does not currently have a value assigned to it. Trying to call a method or access a field on a `null` value will cause the program to crash. It is considered a best practice to check for null values before performing any operations on them by using `if statements` to check that its value is not null before accessing it. The use of null in Java can be a source bugs.

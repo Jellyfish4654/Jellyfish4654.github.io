@@ -75,28 +75,6 @@ Floating-point types can represent numbers that are not integers. There are two 
 
 Floating-point stores fractional numbers (e.g., `1.0`).
 
-### Arithmetic Operators
-
-Java has several basic math operators.
-
-| Operator  |  Name  |  What it does |  Examples |
-|---|---|---|---|
-| + |  Addition  |  Add together two values  |  x + y |
-| - |  Subtraction |  Subtracts one value from another  |  x - y  |
-| * |  Multiplication |  Multiplies two values  |  x * y |
-| / |  Division |  Divides one value by another  |  x / y |
-| % |  Modulus |  Returns the division remainder  |  x % y |
-| ++ |  Increment |  Increases the value of a variable by 1  |  x++ |
-| -- |  Decrement |  Decreases the value of a variable by 1 |  x\-\- |
-
-In the table above, the placeholders "a" and "b" are known as operands. Their data types determine the data type of the entire expression. The rules are as follows:
-- If any operand is double, the entire expression is double.
-- If any operand is float but neither operand is double, the entire expression is float.
-- If any operand is long but neither operand is double or float, the entire expression is long.
-- Otherwise, the data type of the entire expression is likely int.
-
-When both operands are integers, the division operator (/) rounds down to the nearest integer. For instance, 24 / 5 equals 4 (an int), whereas 24.0 / 5 equals 4.8 (a double).
-
 ### Text 
 
 In Java, the `String` data type represents text and is enclosed in double quotes. Meanwhile, the `char` data type represents a single character enclosed in single quotes. 
@@ -116,6 +94,51 @@ class Main {
 ::: tip Output:
 Hello, welcome to Junior Jellies!
 :::
+
+### Type Casting
+
+Type casting is when you assign a value of one primitive data type to another type.  Casting is done by placing the type in parentheses in front of the value.
+
+```java
+class Main {
+    public static void main(String[] args) {
+        double double1 = 9.32;
+        int int1 = (int) double1; // Manual casting: double to int
+        double double2 = (double) int1;
+        System.out.println(double1);
+        System.out.println(myInt);
+        System.out.println(double2);
+    }
+}
+```
+
+::: tip Output:
+9.32  
+9  
+9.0
+:::
+
+### Arithmetic Operators
+
+Java has several basic math operators.
+
+| Operator  |  Name  |  What it does |  Examples |
+|---|---|---|---|
+| + |  Addition  |  Add together two values  |  x + y |
+| - |  Subtraction |  Subtracts one value from another  |  x - y  |
+| * |  Multiplication |  Multiplies two values  |  x * y |
+| / |  Division |  Divides one value by another  |  x / y |
+| % |  Modulus |  Returns the division remainder  |  x % y |
+| ++ |  Increment |  Increases the value of a variable by 1  |  x++ |
+| -- |  Decrement |  Decreases the value of a variable by 1 |  x\-\- |
+
+In the table above, the placeholders "x" and "y" are known as operands. Their data types determine the data type of the entire expression. The rules are as follows:
+- If any operand is double, the entire expression is double.
+- If any operand is float but neither operand is double, the entire expression is float.
+- If any operand is long but neither operand is double or float, the entire expression is long.
+- Otherwise, the data type of the entire expression is likely int.
+
+When both operands are integers, the division operator (/) rounds down to the nearest integer. For instance, 24 / 5 equals 4 (an int), whereas 24.0 / 5 equals 4.8 (a double).
 
 ### Boolean
 
@@ -145,27 +168,4 @@ Java's comparison operators are used to compare values.
 ::: warning
 Avoid using equality operators with String values to prevent unexpected bugs.  
 To compare String values, use a.equals(b), where a and b are String expressions. This evaluates to true if a equals b.
-:::
-
-### Type Casting
-
-Type casting is when you assign a value of one primitive data type to another type.  Casting is done by placing the type in parentheses in front of the value.
-
-```java
-class Main {
-    public static void main(String[] args) {
-        double double1 = 9.32;
-        int int1 = (int) double1; // Manual casting: double to int
-        double double2 = (double) int1;
-        System.out.println(double1);
-        System.out.println(myInt);
-        System.out.println(double2);
-    }
-}
-```
-
-::: tip Output:
-9.32  
-9  
-9.0
 :::

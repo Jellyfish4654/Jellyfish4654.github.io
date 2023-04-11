@@ -16,6 +16,12 @@ The recommended IDE is [IntelliJ](https://www.jetbrains.com/idea/download/) as i
 
 ::: code-group
 
+```kotlin [Kotlin]
+fun main() {
+  println("Hello World")
+}
+```
+
 ```java [Java]
 public class Main {
 	public static void main(String[] args) {
@@ -24,11 +30,6 @@ public class Main {
 }
 ```
 
-```kotlin [Kotlin]
-fun main() {
-  println("Hello World")
-}
-```
 :::
 
 The syntax for defining the main function in Kotlin is simply `fun main()`, as opposed to the verbose `public static void main(String[] args)` syntax used in Java. Additionally, you do not need to complete the statement with a semicolon. 
@@ -38,6 +39,16 @@ The syntax for defining the main function in Kotlin is simply `fun main()`, as o
 To create a variable, use var or val:
 
 ::: code-group
+
+```kotlin [Kotlin]
+fun main() {
+  var name = "John Doe"
+  val birthyear = 1969
+
+  println(name)
+  println(birthyear)
+}
+```
 
 ```java [Java]
 public class Main {
@@ -51,15 +62,6 @@ public class Main {
 }
 ```
 
-```kotlin [Kotlin]
-fun main() {
-  var name = "John Doe"
-  val birthyear = 1969
-
-  println(name)
-  println(birthyear)
-}
-```
 :::
 
 - `var` is a mutable variable
@@ -67,14 +69,23 @@ fun main() {
 - `val` is an immutable variable
   - This means that variables declared with the `val` keyword cannot be changed, similar to the `final` modifier
 
-### Type Inference
+## Type Inference
 
 Kotlin's type inference feature automatically assigns the variable type
 
-### Specify Data Types
+## Specify Data Types
 
 Syntax to specify data types:  
 ::: code-group
+
+```kotlin [Kotlin]
+fun main() {
+  var teamName: String
+  teamName = "Jellyfish"
+  var teamNumber: Int = 4654
+  println(teamName + teamNumber)
+}
+```
 
 ```java [Java]
 public class Main {
@@ -87,19 +98,11 @@ public class Main {
 }
 ```
 
-```kotlin [Kotlin]
-fun main() {
-  var teamName: String
-  teamName = "Jellyfish"
-  var teamNumber: Int = 4654
-  println(teamName + teamNumber)
-}
-```
 :::
 
-### Primitive Data Types
+## Primitive Data Types
 
-Kotlin's primitive data types are the same as Java's, but capitalized:
+Kotlin's primitive data types are similar to Java's, but they are capitalized:
 | Data Type | Java Equivalent |
 |---|---|
 | Byte | byte |
@@ -111,11 +114,22 @@ Kotlin's primitive data types are the same as Java's, but capitalized:
 | Boolean | boolean |
 | Char | char |
 
-### String Template
+Unlike Java, Char types cannot be treated as numbers.
+
+## String Template
 
 Kotlin's string templates, allowing variables and expressions to be embedded directly into string literals using the syntax ${variable} or ${expression}.
 
 ::: code-group
+
+```kotlin [Kotlin]
+fun main() {
+  var teamName = "Jellyfish"
+  var teamNumber = 4654
+  var message = "Team $teamName #$teamNumber"
+  println(message)
+}
+```
 
 ```java [Java]
 public class Main {
@@ -128,12 +142,47 @@ public class Main {
 }
 ```
 
+:::
+
+## User Input
+
+Use the readLine function to read the user’s input:
+
+::: code-group
+
 ```kotlin [Kotlin]
 fun main() {
-  var teamName = "Jellyfish"
-  var teamNumber = 4654
-  var message = "Team $teamName #$teamNumber"
-  println(message)
+    System.out.println("Enter your team name")
+    var teamName = readLine()
+    System.out.println("Enter your team number")
+    var teamNumber = readLine()
+    var message = "Team $teamName #$teamNumber"
+    println(message)
 }
 ```
+
+```java [Java]
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter your team name");
+        String teamName = in.nextLine();
+        System.out.println("Enter your team number");
+        int teamNumber = in.nextInt();
+        String message = String.format("Team %s #%d", teamName, teamNumber);
+        System.out.println(message);
+    }
+}
+```
+
+:::
+
+::: tip Output:
+Enter your team name
+Jellyfish // User input
+Enter your team number
+4654 // User input
+Team Jellyfish #4654
 :::

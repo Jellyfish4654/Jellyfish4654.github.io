@@ -54,6 +54,38 @@ if (condition1) {
 }
 ```
 
+## The Ternary Operator
+
+The ternary operator is a compact form of if-else statements. It can be used to replace simple if-else statements.
+
+::: code-group
+
+```java [Ternary Operator]
+class Main {
+    public static void main(String[] args) {
+        Boolean multBoolean = true;
+        double mult = 1;
+        mult = multBoolean ? 0.5 : 1;
+    }
+}
+```
+
+```java [If-Else]
+class Main {
+    public static void main(String[] args) {
+        Boolean multBoolean = true;
+        double mult = 1;
+        if (multBoolean) {
+            mult = 0.5;
+        } else {
+            mult = 1;
+        }
+    }
+}
+```
+
+:::
+
 ## The Switch Statement
 
 Switch statements allow you to execute a code block based on the value of a specific expression. However, they can only be used with primitive types. Instead of writing many `if/else if statements`, you should use the switch statement.

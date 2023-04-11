@@ -146,6 +146,23 @@ function sidebarDocs() {
               ]
             }
           ]
+        },
+        {
+          text: 'Kotlin Lessons',
+          collapsed: false,
+          items: [
+            
+            {
+              text: 'Variables & Input',
+              link: '/docs/kotlin/getting-started',
+              items: [
+                {
+                  text: 'Variables & Input Exercises',
+                  link: '/docs/java/d1-exercises',
+                }
+              ]
+            }
+          ]
         }
       ]
     },

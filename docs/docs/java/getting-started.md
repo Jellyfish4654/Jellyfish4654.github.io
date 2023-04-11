@@ -2,7 +2,7 @@
 
 ## Installation
 
-I would recommend using VS Code for the IDE. Alternatively, Eclipse can also be used.
+The recommended IDE is [IntelliJ](https://www.jetbrains.com/idea/download/) as it is developed by the same people that created Kotlin and Android Studio. Alternatively, VSCode can also be used as a second option.
 
 ## Setup
 

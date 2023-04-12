@@ -1,6 +1,6 @@
 # Methods Part I
 
-A method is a block of code that runs when it is called to perform a function. People familiar with other languages may recognize similarities to functions, however, methods in programming are more object-oriented. The Math class has many methods built into Java that allows you to perform mathematical functions.
+A method is a block of code that runs when it is called to perform a function. People familiar with other languages may recognize similarities to functions, however, methods in programming are more object-oriented.
 
 ::: tip Note:
 I've listed some useful built-in Java methods.

@@ -152,9 +152,9 @@ Use the readLine function to read the user’s input:
 
 ```kotlin [Kotlin]
 fun main() {
-    System.out.println("Enter your team name")
+    println("Enter your team name")
     var teamName = readLine()
-    System.out.println("Enter your team number")
+    println("Enter your team number")
     var teamNumber = readLine()
     var message = "Team $teamName #$teamNumber"
     println(message)
@@ -180,9 +180,44 @@ class Main {
 :::
 
 ::: tip Output:
-Enter your team name
-Jellyfish // User input
-Enter your team number
-4654 // User input
+Enter your team name  
+Jellyfish // User input  
+Enter your team number  
+4654 // User input  
 Team Jellyfish #4654
+:::
+
+## Math Library
+
+The Math library in Kotlin is inherited from Java.
+
+::: code-group
+
+```kotlin [Kotlin]
+fun main() {
+    println(Math.pow(2.0, 4.0))
+    println(Math.min(1, 10))
+    println(Math.max(1, 10))
+    println(Math.round(4.1))
+}
+```
+
+```java [Java]
+class Main {
+    public static void main(String[] args) {
+        System.out.println(Math.pow(2.0, 4.0));
+        System.out.println(Math.min(1, 10));
+        System.out.println(Math.max(1, 10));
+        System.out.println(Math.round(4.1));
+    }
+}
+```
+
+:::
+
+::: tip Output:
+16.0  
+1  
+10  
+4
 :::

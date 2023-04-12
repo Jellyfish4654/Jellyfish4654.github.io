@@ -1,4 +1,7 @@
 # Arrays
+
+## Arrays
+
 Arrays are a fundamental data structure in Java that enable you to store multiple values of the same data type in a single variable. This provides a more efficient and organized approach to managing data than declaring separate variables for each value.
 
 To create an array in Java, you can use the following syntax:  
@@ -53,6 +56,49 @@ I
 love  
 Junior  
 Jellies!  
+:::
+
+## Multidimensional Arrays
+
+Multidimensional arrays are arrays of arrays, commonly used for storing data in a tabular format such as a table with rows and columns.
+
+```java
+class Main {
+    public static void main(String[] args) {
+        int[][] myNumbers = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}};
+        System.out.println(myNumbers[1][3]);
+    }
+}
+```
+
+::: tip Output:
+9
+:::
+
+```java
+class Main {
+    public static void main(String[] args) {
+        int[][] array = new int[4][4];
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = i + j;
+            }
+        }
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+::: tip Output:
+0 1 2 3 
+1 2 3 4 
+2 3 4 5 
+3 4 5 6 
 :::
 
 ## For-Each loop

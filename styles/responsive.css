@@ -354,16 +354,16 @@
   .single-team {
     background-color: #060542;
   }
-  .jumpx-slider-item .jumpx-slider-text h1 {
+  .slider-item .slider-text h1 {
     font-size: 35px;
   }
-  .jumpx-slider-item .jumpx-slider-text p {
+  .slider-item .slider-text p {
     font-size: 14px;
   }
-  .jumpx-slider-item .jumpx-slider-text .slider-btn .default-btn {
+  .slider-item .slider-text .slider-btn .default-btn {
     margin: 0 5px;
   }
-  .jumpx-slider-item {
+  .slider-item {
     height: 100%;
     padding-top: 115px;
     padding-bottom: 100px;
@@ -1245,13 +1245,13 @@
   .single-team {
     background-color: #060542;
   }
-  .jumpx-slider-item .jumpx-slider-text h1 {
+  .slider-item .slider-text h1 {
     font-size: 35px;
   }
-  .jumpx-slider-item .jumpx-slider-text p {
+  .slider-item .slider-text p {
     font-size: 14px;
   }
-  .jumpx-slider-item .jumpx-slider-text .slider-btn .default-btn {
+  .slider-item .slider-text .slider-btn .default-btn {
     margin: 0 5px;
   }
   .page-title-area {
@@ -1345,7 +1345,7 @@
   .main-banner-area-three .banner-main-img {
     margin-top: 50px;
   }
-  .jumpx-slider-item {
+  .slider-item {
     height: 100%;
     padding-top: 200px;
     padding-bottom: 200px;

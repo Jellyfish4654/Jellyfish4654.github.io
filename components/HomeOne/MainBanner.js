@@ -14,8 +14,8 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  
-                  FTC Team 
+
+                  FTC Team
                   <br></br>
                   4654 Jellyfish
                 </h1>
@@ -26,7 +26,7 @@ const MainBanner = () => {
                   <br></br>
                 </p>
 
-                <div 
+                <div
                   className="banner-btn"
                   data-aos="fade-in"
                   data-aos-duration="1200"
@@ -42,7 +42,9 @@ const MainBanner = () => {
             <div className="col-lg-6">
               {/* Main Image */}
               <div className="banner-main-img banner-one-main-img">
-                <img src="/images/home-one/main-img1.png" alt="Image" />
+                <img src="/images/home-one/main-img1.png"
+                  onerror="this.style.display='none'"
+                />
               </div>
 
               {/* Banner Shape Images */}
@@ -50,7 +52,7 @@ const MainBanner = () => {
                 <img
                   className="animate__animated animate__fadeInUp animate__fast"
                   src="/images/home-one/shape1.png"
-                  alt="Image"
+                  onerror="this.style.display='none'"
                 />
               </div>
             </div>
@@ -59,13 +61,13 @@ const MainBanner = () => {
 
         {/* Shape Images */}
         <div className="over-shape">
-          <img src="/images/home-one/shape/animate1.png" alt="Image" />
-          <img src="/images/home-one/shape/animate2.png" alt="Image" />
-          <img src="/images/home-one/shape/animate3.png" alt="Image" />
+          <img src="/images/home-one/shape/animate1.png" />
+          <img src="/images/home-one/shape/animate2.png" />
+          <img src="/images/home-one/shape/animate3.png" />
         </div>
 
         <div className="white-shape">
-          <img src="/images/home-one/bottom-shape.png" alt="Image" />
+          <img src="/images/home-one/bottom-shape.png" />
         </div>
       </section>
     </>

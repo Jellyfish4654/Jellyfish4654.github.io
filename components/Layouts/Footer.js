@@ -21,23 +21,13 @@ const Footer = () => {
 
                 <ul className="social-icon">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <i className="bx bxl-facebook"></i>
+                    <a href="https://www.instagram.com/jellyfish4654_/" target="_blank">
+                      <i className="bx bxl-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i className="bx bxl-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i className="bx bxl-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.pinterest.com/" target="_blank">
-                      <i className="bx bxl-pinterest-alt"></i>
+                    <a href="https://www.tiktok.com/@jellyfish4654" target="_blank">
+                      <i className="bx bxl-tiktok"></i>
                     </a>
                   </li>
                 </ul>

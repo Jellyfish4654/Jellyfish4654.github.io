@@ -1,1 +1,0 @@
-# News <Badge type="warning" text="beta" />

@@ -1,84 +1,3 @@
-/*
-@File: Jumpx Template Styles
-
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
-
-This files table contents are outlined below>>>>>
-
-******************************************* 
-** - Default Area Style
-** - Preloader Area Style
-** - Go Top Area Style
-** - Page navigation Area Style  
-** - Video wave Style
-** - Default Btn Area Style
-** - Read More Area Style
-** - Section Title Area Style 
-** - Preloader Area Style
-** - Keyframes Area Style 
-** - Nice Select Area Style
-** --- HOME ONE STYLE --- **
-** - Milford Nav Area Style
-** - Main Banner Area Style
-** - Features Area Style
-** - About Area Style 
-** - Choose Us Area Style
-** - Offer Area Style
-** - Business  Area Style
-** - Pricing Area Style
-** - Industries  Area Style
-** - Client Area Style
-** - News Area Style
-** - Footer Top Area Style
-** - Footer Bottom Area Style
-** --- HOME TWO STYLE --- **
-** - Banner Two Area Style
-** - Offer Area Two Style
-** - Pricing Area Style
-** - Newsletter Area Style
-** - Industries Serve Area Style
-** - Brand Area Serve Area Style 
-** --- HOME THREE STYLE --- **
-** - Main Banner Area Three Style
-** - Team Area Three Style
-** - Contact Area Three Style
-** --- HOME FOUR STYLE --- **
-** - Main Banner Four Area Style
-** - Case Area Style
-** - FAQ CSS
-** --- HOME FOUR STYLE --- **
-** - Banner Four Area Style
-** - Bg Color Four Area Style
-** - Home Four Section Title Color Area Style
-** - About Area Four Style
-** - Business Area Four Style
-** - Offer Area Four Style
-** - Industries Area Four Style
-** - Team Area Four Style
-** --- HOME FIVE STYLE --- **
-** - SliderArea Style
-** --- INNER PAGE STYLE --- **
-** - Page Title Area Style
-** - 404 Error Area Style
-** - Coming Soon Area Style
-** - Sign In & Log In  Area Style
-** - Ask Question Area Style
-** - Checkout Area Style 
-** - Cart Area Style
-** - Blog Details Area Style
-** - Contact Info Area Style
-** - Main Contact Area Style
-** - Contact Info Area Three Style 
-** - Service Details Area Style
-
-*******************************************
-/*
-
-/*
-Default Style
-============================*/
 body {
   padding: 0;
   margin: 0;
@@ -271,16 +190,10 @@ textarea.form-control {
   background-color: #24416b;
 }
 
-/*
-Bg Color Four Area Style
-======================================================*/
 .body-bg-color {
   background-color: #010032;
 }
 
-/*
-Go Top Style
-======================================================*/
 .scroll-to-top .top {
   position: fixed;
   cursor: pointer;
@@ -359,9 +272,6 @@ Go Top Style
   top: 50%;
 }
 
-/*
-Page-navigation Area Style
-======================================================*/
 .page-navigation-area {
   text-align: center;
   margin-top: 30px;
@@ -421,9 +331,6 @@ Page-navigation Area Style
   border-color: #1dd3f8;
 }
 
-/*
-Video wave Style
-======================================================*/
 .video-btn {
   display: inline-block;
   width: 60px;
@@ -485,9 +392,7 @@ Video wave Style
     transform: scale(2);
   }
 }
-/*
-Default Btn Area Style
-======================================================*/
+
 .default-btn {
   font-size: 15px;
   font-weight: 600;
@@ -551,9 +456,6 @@ Default Btn Area Style
   cursor: pointer;
 }
 
-/*
-Read More Area Style
-======================================================*/
 .read-more {
   color: #4d4d4d;
   font-weight: 600;
@@ -580,9 +482,6 @@ Read More Area Style
   border-color: #1dd3f8;
 }
 
-/*
-Section Title Area Style
-======================================================*/
 .section-title {
   max-width: 625px;
   margin: -9px auto 60px;
@@ -605,9 +504,6 @@ Section Title Area Style
   margin-bottom: 0;
 }
 
-/*
-Preloader Area Style
-======================================================*/
 .preloader-deactivate {
   display: none;
 }
@@ -657,9 +553,7 @@ Preloader Area Style
     -webkit-transform: scaleY(1);
   }
 }
-/*
-Keyframes Area Style
-======================================================*/
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -755,9 +649,7 @@ Keyframes Area Style
     border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
   }
 }
-/*
-Nice Select Area Style
-======================================================*/
+
 .nice-select .option {
   display: block;
 }
@@ -773,10 +665,6 @@ Nice Select Area Style
   width: 100%;
 }
 
-/*===== DEFAULT STYLE END ======*/
-/*
-jumpx Nav Area Style
-======================================================*/
 .navbar-area nav {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1053,9 +941,6 @@ jumpx Nav Area Style
   left: 0;
 }
 
-/*
-Main Banner Area Style
-======================================================*/
 .main-banner-area {
   background-image: linear-gradient(#00095e, #000638);
   padding-top: 200px;
@@ -1172,9 +1057,6 @@ Main Banner Area Style
   animation: animationFramesOne 25s infinite linear;
 }
 
-/*
-Features Area Style
-======================================================*/
 .single-features {
   text-align: center;
   padding: 30px;
@@ -1276,9 +1158,6 @@ Features Area Style
   background-repeat: no-repeat;
 }
 
-/*
-About Area Style
-======================================================*/
 .about-img {
   text-align: center;
 }
@@ -1330,9 +1209,6 @@ About Area Style
   margin-top: 30px;
 }
 
-/*
-Choose Us Area Style
-======================================================*/
 .features-area {
   position: relative;
   z-index: 1;
@@ -1420,9 +1296,6 @@ Choose Us Area Style
   transform: translateY(-5px);
 }
 
-/*
-Offer Area Style
-======================================================*/
 .offer-area {
   background-color: #f2fefe;
   position: relative;
@@ -1578,9 +1451,6 @@ Offer Area Style
   transform: translateY(-6px);
 }
 
-/*
-Business  Area Style
-======================================================*/
 .business-area .default-btn {
   margin-top: 10px;
 }
@@ -1674,9 +1544,6 @@ Business  Area Style
   color: #c05234;
 }
 
-/*
-Industries Area Style
-======================================================*/
 .industries-area .industries-content h3 {
   margin-bottom: 15px;
 }
@@ -1814,9 +1681,6 @@ Industries Area Style
   display: block;
 }
 
-/*
-Client Area Style
-======================================================*/
 .testimonials-slide .swiper-button-next,
 .testimonials-slide .swiper-button-prev {
   top: 60px;
@@ -1909,9 +1773,6 @@ Client Area Style
   color: #1dd3f8;
 }
 
-/*
-News Area Style
-======================================================*/
 .single-news {
   margin-bottom: 30px;
 }
@@ -1977,9 +1838,6 @@ News Area Style
   border-color: #1dd3f8;
 }
 
-/*
-Footer Top Area Style
-======================================================*/
 .footer-top-area {
   background-color: #00042c;
   position: relative;
@@ -2133,9 +1991,6 @@ Footer Top Area Style
   color: #ffffff;
 }
 
-/*
-Footer Bottom Area Style
-======================================================*/
 .footer-bottom-area {
   background-color: #0d1240;
   padding: 20px 0;
@@ -2202,12 +2057,6 @@ Footer Bottom Area Style
   display: none;
 }
 
-/*====================================================
-HOME TWO STYLE
-======================================================*/
-/*
-Banner Two Area Style
-======================================================*/
 .main-banner-area-two {
   background-position: center center;
   background-repeat: no-repeat;
@@ -2299,9 +2148,6 @@ Banner Two Area Style
   animation: animationFramesOne 25s infinite linear;
 }
 
-/*
-Offer Area Two Style
-======================================================*/
 .offer-area-two .single-offer:hover {
   background-color: #1dd3f8;
 }
@@ -2312,9 +2158,6 @@ Offer Area Two Style
   color: #ffffff;
 }
 
-/*
-Pricing Area Style
-======================================================*/
 .single-pricing {
   text-align: center;
   background-color: #ffffff;
@@ -2443,9 +2286,6 @@ Pricing Area Style
   color: #ffffff;
 }
 
-/*
-Newsletter Area Style
-======================================================*/
 .newsletter-area {
   background-color: #060542;
   position: relative;
@@ -2513,9 +2353,6 @@ Newsletter Area Style
   color: #1dd3f8;
 }
 
-/*
-Industries Serve Area Style
-======================================================*/
 .industries-serve-area {
   padding-bottom: 90px;
 }
@@ -2604,9 +2441,6 @@ Industries Serve Area Style
   border-radius: 60px 0 0 60px;
 }
 
-/*
-Brand Area Serve Area Style
-======================================================*/
 .brand-slide .swiper-button-next:after,
 .brand-slide .swiper-button-prev:after {
   font-size: 25px;
@@ -2634,12 +2468,6 @@ Brand Area Serve Area Style
   transition: all 0.6s ease;
 }
 
-/*====================================================
-HOME THREE STYLE
-======================================================*/
-/*
-Banner Three Area Style
-======================================================*/
 .main-banner-area-three {
   padding-bottom: 250px;
   overflow: hidden;
@@ -2713,16 +2541,10 @@ Banner Three Area Style
   animation: animationFramesOne 10s infinite linear;
 }
 
-/*
-Brand Three Area Style
-======================================================*/
 .brand-area-two {
   background-color: #f0fcfe;
 }
 
-/*
-Case Area Style
-======================================================*/
 .case-area .swiper-pagination {
   position: initial;
   margin-top: 30px;
@@ -2817,9 +2639,6 @@ Case Area Style
   text-decoration: underline;
 }
 
-/*
-FAQ CSS
-======================================================*/
 .faq-accordion .accordion {
   list-style-type: none;
   padding-left: 0;
@@ -2874,12 +2693,6 @@ FAQ CSS
   display: block;
 }
 
-/*====================================================
-HOME FOUR STYLE
-======================================================*/
-/*
-Banner Four Area Style
-======================================================*/
 .main-banner-area-four {
   padding-bottom: 170px;
   overflow: hidden;
@@ -2927,9 +2740,6 @@ Banner Four Area Style
   animation: animationFramesOne 10s infinite linear;
 }
 
-/*
-Home Four Section Title Color Area Style
-======================================================*/
 .home-four-section-title h2 {
   color: #ffffff;
 }
@@ -2937,9 +2747,6 @@ Home Four Section Title Color Area Style
   color: #e7e7e7;
 }
 
-/*
-About Area Four Style
-======================================================*/
 .about-area-four .about-content h2 {
   color: #ffffff;
 }
@@ -2950,9 +2757,6 @@ About Area Four Style
   color: #e7e7e7;
 }
 
-/*
-Business Area Four Style
-======================================================*/
 .business-area-four .business-content h2 {
   color: #ffffff;
 }
@@ -2963,9 +2767,6 @@ Business Area Four Style
   color: #e7e7e7;
 }
 
-/*
-Offer Area Four Style
-======================================================*/
 .offer-area-four {
   background-color: #060542;
 }
@@ -2976,9 +2777,6 @@ Offer Area Four Style
   opacity: 0.3;
 }
 
-/*
-Industries Area Four Style
-======================================================*/
 .industries-area-four .industries-content h3 {
   color: #ffffff;
 }
@@ -2986,9 +2784,6 @@ Industries Area Four Style
   color: #e7e7e7;
 }
 
-/*
-Team Area Four Style
-======================================================*/
 .single-team {
   text-align: center;
   padding: 30px;
@@ -3042,12 +2837,6 @@ Team Area Four Style
   animation: rubberBand 1s linear;
 }
 
-/*====================================================
-HOME FIVE STYLE
-======================================================*/
-/*
-jumpx SliderArea Style
-======================================================*/
 .hero-swiper .swiper-button-next,
 .hero-swiper .swiper-button-prev {
   width: auto;
@@ -3071,7 +2860,7 @@ jumpx SliderArea Style
   color: #ffffff;
 }
 
-.jumpx-slider-item {
+.slider-item {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3079,7 +2868,7 @@ jumpx SliderArea Style
   position: relative;
   z-index: 1;
 }
-.jumpx-slider-item::before {
+.slider-item::before {
   content: "";
   position: absolute;
   top: 0;
@@ -3090,40 +2879,34 @@ jumpx SliderArea Style
   z-index: -1;
   opacity: 0.9;
 }
-.jumpx-slider-item .jumpx-slider-text {
+.slider-item .slider-text {
   text-align: center;
   max-width: 750px;
   margin: 50px auto 0;
 }
-.jumpx-slider-item .jumpx-slider-text span {
+.slider-item .slider-text span {
   color: #ffffff;
   font-size: 15px;
   display: block;
   margin-bottom: 10px;
 }
-.jumpx-slider-item .jumpx-slider-text h1 {
+.slider-item .slider-text h1 {
   font-size: 70px;
   color: #ffffff;
   margin-bottom: 30px;
 }
-.jumpx-slider-item .jumpx-slider-text p {
+.slider-item .slider-text p {
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 45px;
 }
-.jumpx-slider-item .jumpx-slider-text .slider-btn .default-btn {
+.slider-item .slider-text .slider-btn .default-btn {
   margin: 0 20px;
 }
-.jumpx-slider-item .jumpx-slider-text .slider-btn .default-btn.white {
+.slider-item .slider-text .slider-btn .default-btn.white {
   color: #ffffff;
 }
 
-/*==================================================== 
-INNER PAGE STYLE
-======================================================*/
-/* 
-Page Title Area Style
-=====================================================*/
 .page-title-area {
   position: relative;
   z-index: 1;
@@ -3174,9 +2957,6 @@ Page Title Area Style
   color: #1dd3f8;
 }
 
-/*
-404 Error Area Style
-=====================================================*/
 .error-area {
   padding: 50px 0;
   height: 100vh;
@@ -3219,9 +2999,6 @@ Page Title Area Style
   font-size: 19px;
 }
 
-/* 
-Coming Soon Area Style
-=====================================================*/
 .coming-soon-area {
   position: relative;
   height: 100vh;
@@ -3348,9 +3125,6 @@ Coming Soon Area Style
   margin: 0 auto;
 }
 
-/*
-Sign In & Log In  Area Style
-=====================================================*/
 .user-area-all-style {
   position: relative;
   z-index: 1;
@@ -3469,9 +3243,6 @@ Sign In & Log In  Area Style
   font-weight: 600;
 }
 
-/*
-Ask Question Area Style
-=====================================================*/
 .ask-question {
   background-color: #ffffff;
   box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
@@ -3527,9 +3298,6 @@ Ask Question Area Style
   color: #4d4d4d;
 }
 
-/*
-Ask Question Area Style
-=====================================================*/
 .team-inner-area .single-team {
   background-color: #060542;
 }
@@ -3537,13 +3305,8 @@ Ask Question Area Style
   transform: translateY(-5px);
 }
 
-/*
-Blog Details Area Style
-=====================================================*/
 .news-details-area {
-  /*
-  Sidebar Widget Area Style
-  ================================*/
+
 }
 .news-details-area .blog-details-desc .article-image {
   position: relative;
@@ -4505,9 +4268,6 @@ Blog Details Area Style
   margin-bottom: 4px;
 }
 
-/*
-Contact Info Area Style 
-================================*/
 .contact-info-area .single-contact-info {
   text-align: center;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
@@ -4560,9 +4320,6 @@ Contact Info Area Style
   height: 445px;
 }
 
-/*
-Main Contact Area Style
-=====================================================*/
 .main-contact-area .contact-wrap {
   max-width: unset;
 }
@@ -4599,9 +4356,6 @@ Main Contact Area Style
   border-radius: 4px !important;
 }
 
-/*
-Contact Info Area Three Style
-=====================================================*/
 .contact-info-three .contact-wrap .contact-form {
   padding: 48px;
 }
@@ -4610,9 +4364,6 @@ Contact Info Area Three Style
   margin-bottom: 40px;
 }
 
-/*
-Service Details Area Style
-=====================================================*/
 .service-sidebar-area .service-details-title {
   background-color: #eeeeee;
   color: #212121;
@@ -4754,12 +4505,10 @@ Service Details Area Style
   text-align: center;
 }
 
-/* Video modal */
 .modal-video-close-btn {
   cursor: pointer;
 }
 
-/* Text container */
 .text-container h1 {
   font-size: 40px;
   margin-bottom: 15px;
@@ -4817,4 +4566,4 @@ Service Details Area Style
 .cta-area .cta-content h3 {
   color: #fff;
   font-size: 55px;
-}/*# sourceMappingURL=style.css.map */
+}

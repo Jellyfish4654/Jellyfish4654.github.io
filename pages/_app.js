@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="FTC Team 4654 Jellyfish is a competitive robotics team dedicated to promoting STEM through hands-on experience in building and programming robots. Learn more about our team and our journey on our official website." />
         <title>FTC Team 4654 Jellyfish</title>
       </Head>
 

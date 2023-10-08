@@ -44,19 +44,19 @@ const Footer = () => {
                 <h3>Important Links</h3>
                 <ul>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/about-us">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/juniorjellies">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Junior Jellies
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/sponsors">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Sponsors
                     </Link>

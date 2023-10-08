@@ -21,7 +21,7 @@ const post_CenterStage = () => {
                   <div className="entry-meta">
                     <ul>
                       <li>
-                        <span>Posted On:</span> February 20 , 2020
+                        <span>Posted On:</span> September 9 , 2023
                       </li>
                     </ul>
                   </div>

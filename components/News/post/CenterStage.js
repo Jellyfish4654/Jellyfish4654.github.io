@@ -1,8 +1,8 @@
 import React from "react";
-import NewsSidebar from "./NewsSidebar";
+import NewsSidebar from "../NewsSidebar";
 import Link from "next/link";
 
-const NewsDetailsContent = () => {
+const post_CenterStage = () => {
   return (
     <>
       <section className="news-details-area ptb-100">
@@ -31,8 +31,19 @@ const NewsDetailsContent = () => {
                   </h3>
 
                   <p>
-                    boilerplate
+                    Today, the FTC game Centerstage was officially released. The game involves scores points on the backdrop, launching a drone, and hanging the robot on the rigging. As we embark on this new season, our goal is to start on a strong note and achieve great success throughout the season. Additionally one of our largest goals this season is to emphasize sustainability and outreach. We are committed to recruiting dedicated members and introducing them to the core principles of FIRST. Likewise, we are continually seeking opportunities to foster professional outreach within our STEM and local community.
                   </p>
+
+                  <div className="embedded-video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/6e-5Uo1dRic"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      title="Embedded YouTube Video"
+                    ></iframe>
+                  </div>
                 </div>
 
                 <div className="post-navigation">
@@ -65,4 +76,4 @@ const NewsDetailsContent = () => {
   );
 };
 
-export default NewsDetailsContent;
+export default post_CenterStage;

@@ -5,7 +5,7 @@ import About from "../components/OurTeam/About";
 import TeamCard from "../components/Team/TeamCard";
 import Footer from "../components/Layouts/Footer";
 
-export default function About1() {
+export default function AboutUs() {
   return (
     <>
       <Navbar />

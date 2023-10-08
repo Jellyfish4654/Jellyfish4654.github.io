@@ -7,7 +7,7 @@ const featuresData = [
     title: "Our Team",
     shortText:
       "FIRST Tech Challenge Team 4654 Jellyfish",
-    viewDetails: "/service-details",
+    viewDetails: "/about-us",
     aosDelay: "100",
   },
   {
@@ -15,7 +15,7 @@ const featuresData = [
     title: "Junior Jellies",
     shortText:
       "Our STEM-focused afterschool program",
-    viewDetails: "/service-details",
+    viewDetails: "/juniorjellies",
     aosDelay: "200",
   },
   {
@@ -23,7 +23,7 @@ const featuresData = [
     title: "Sponsors",
     shortText:
       "Learn about our generous sponsors",
-    viewDetails: "/service-details",
+    viewDetails: "/sponsors",
     aosDelay: "300",
   },
 ];

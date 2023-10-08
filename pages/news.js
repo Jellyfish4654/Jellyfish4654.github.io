@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import NewsGridCard from "../components/News/NewsGridCard";
+import News  from "../components/News/NewsGrid";
 import Footer from "../components/Layouts/Footer";
 
 export default function NewsGrid() {
@@ -10,13 +10,13 @@ export default function NewsGrid() {
       <Navbar />
 
       <PageBanner
-        pageTitle="News Grid"
+        pageTitle="News"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="News Grid"
+        activePageText="News"
       />
 
-      <NewsGridCard />
+      <News  />
 
       <Footer />
     </>

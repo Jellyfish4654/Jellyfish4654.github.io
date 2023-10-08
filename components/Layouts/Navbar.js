@@ -72,9 +72,9 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/about-1/"
+                    href="/about-us/"
                     className={`nav-link ${
-                      currentPath == "/about-1/" && "active"
+                      currentPath == "/about-us/" && "active"
                     }`}
                   >
                     Our Team
@@ -94,9 +94,9 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/news-grid/"
+                    href="/news/"
                     className={`nav-link ${
-                      currentPath == "/news-grid/" && "active"
+                      currentPath == "/news/" && "active"
                     }`}
                   >
                     News

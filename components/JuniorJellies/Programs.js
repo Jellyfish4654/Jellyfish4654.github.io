@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const WhatWeOffer = () => {
+const JJPrograms = () => {
   const openTabSection = (evt, tabNmae) => {
     let i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabs_item");
@@ -206,4 +206,4 @@ const WhatWeOffer = () => {
   );
 };
 
-export default WhatWeOffer;
+export default JJPrograms;

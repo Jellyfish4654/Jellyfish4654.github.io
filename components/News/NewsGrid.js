@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const NewsGridCard = () => {
+const NewsGrid = () => {
   return (
     <>
       <section className="news-area ptb-100">
@@ -10,7 +10,7 @@ const NewsGridCard = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-news">
                 <div className="blog-img">
-                  <Link href="/news-details">
+                  <Link href="/news/centerstage">
                     <img src="/images/blog/blog1.png" alt="Image" />
                   </Link>
 
@@ -21,7 +21,7 @@ const NewsGridCard = () => {
 
                 <div className="news-content-wrap">
 
-                  <Link href="/news-details">
+                  <Link href="/news/centerstage">
                     <h3>CENTERSTAGE</h3>
                   </Link>
 
@@ -29,7 +29,7 @@ const NewsGridCard = () => {
                     First announces the 2023-2024 game, CENTERSTAGE 
                   </p>
 
-                  <Link href="/news-details" className="read-more">
+                  <Link href="/news/centerstage" className="read-more">
                     Read More <i className="bx bx-plus"></i>
                   </Link>
                 </div>
@@ -43,4 +43,4 @@ const NewsGridCard = () => {
   );
 };
 
-export default NewsGridCard;
+export default NewsGrid;

@@ -947,6 +947,10 @@ textarea.form-control {
   padding-bottom: 300px;
   position: relative;
   z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .main-banner-area::before {
   content: "";
@@ -974,6 +978,7 @@ textarea.form-control {
   position: relative;
   max-width: 640px;
   margin-left: auto;
+  margin-bottom: 40px;
 }
 .main-banner-area .banner-text h1 {
   color: #ffffff;

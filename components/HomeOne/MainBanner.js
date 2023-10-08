@@ -20,12 +20,6 @@ const MainBanner = () => {
                   4654 Jellyfish
                 </h1>
 
-                <p>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </p>
-
                 <div
                   className="banner-btn"
                   data-aos="fade-in"

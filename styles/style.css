@@ -2644,60 +2644,6 @@ textarea.form-control {
   text-decoration: underline;
 }
 
-.faq-accordion .accordion {
-  list-style-type: none;
-  padding-left: 0;
-  margin-bottom: 0;
-  border: none;
-}
-.faq-accordion .accordion .accordion__item {
-  margin-bottom: 15px;
-  border: none;
-}
-.faq-accordion .accordion .accordion__item:last-child {
-  margin-bottom: 0;
-}
-.faq-accordion .accordion .accordion__button {
-  border-radius: 5px;
-  display: block;
-  box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
-  background: #ffffff;
-  padding: 20px 25px;
-  color: #212121;
-  text-decoration: none;
-  position: relative;
-  display: block;
-  font-size: 18px;
-  font-weight: 600;
-}
-.faq-accordion .accordion .accordion__button:focus {
-  outline: 0;
-}
-.faq-accordion .accordion .accordion__button i {
-  position: absolute;
-  right: 25px;
-  top: 18px;
-  font-size: 25px;
-  transition: 0.5s;
-}
-.faq-accordion .accordion .accordion-title.active i {
-  transform: rotate(180deg);
-}
-.faq-accordion .accordion .accordion__panel {
-  background-color: #ffffff;
-  position: relative;
-  padding-bottom: 20px;
-  padding-right: 60px;
-  padding-left: 25px;
-  box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
-}
-.faq-accordion .accordion .accordion__panel p {
-  line-height: 1.8;
-}
-.faq-accordion .accordion .accordion-content.show {
-  display: block;
-}
-
 .main-banner-area-four {
   padding-bottom: 170px;
   overflow: hidden;
@@ -3133,119 +3079,6 @@ textarea.form-control {
 .user-area-all-style {
   position: relative;
   z-index: 1;
-}
-.user-area-all-style .contact-form-action {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
-  padding: 40px;
-  max-width: 570px;
-  margin: auto;
-}
-.user-area-all-style .contact-form-action .form-heading {
-  margin-bottom: 33px;
-}
-.user-area-all-style .contact-form-action .form-heading .form-title {
-  font-size: 35px;
-  color: #233d63;
-  margin-bottom: 10px;
-  text-transform: capitalize;
-}
-.user-area-all-style .contact-form-action .form-heading .form-desc {
-  font-size: 18px;
-  color: #677286;
-  font-weight: 500;
-}
-.user-area-all-style .contact-form-action .form-heading .reset-desc {
-  line-height: 30px;
-  margin-top: 15px;
-}
-.user-area-all-style .contact-form-action .form-heading .reset-desc a {
-  color: #1dd3f8;
-}
-.user-area-all-style .contact-form-action .form-heading .reset-desc {
-  font-size: 16px;
-}
-.user-area-all-style .contact-form-action .form-heading .reset-desc a {
-  font-weight: 600;
-}
-.user-area-all-style .contact-form-action form .submit-btn {
-  margin-top: 24px;
-}
-.user-area-all-style .contact-form-action form .default-btn {
-  font-size: 14px;
-  padding: 12px 20px;
-}
-.user-area-all-style .contact-form-action form .default-btn.btn-two {
-  display: table;
-  margin: 0px auto 0;
-  padding: 20px 35px;
-}
-.user-area-all-style .contact-form-action form .col-lg-4:nth-child(1) .default-btn {
-  background-color: #ff5733;
-}
-.user-area-all-style .contact-form-action form .col-lg-4:nth-child(2) .default-btn {
-  background-color: #3955bc;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-.user-area-all-style .contact-form-action form .col-lg-4:nth-child(3) .default-btn {
-  background-color: #1dd3f8;
-  float: right;
-}
-.user-area-all-style .contact-form-action form .reset-btn {
-  margin-top: 0;
-}
-.user-area-all-style .contact-form-action form .form-condition {
-  margin-bottom: 20px;
-}
-.user-area-all-style .contact-form-action form .form-condition .agree-label {
-  font-weight: 600;
-}
-.user-area-all-style .contact-form-action form .form-condition .agree-label a {
-  color: #1dd3f8;
-}
-.user-area-all-style .contact-form-action form .form-group {
-  margin-bottom: 30px;
-}
-.user-area-all-style .contact-form-action .account-desc {
-  margin: 25px auto 0;
-  display: table;
-  font-weight: 600;
-}
-.user-area-all-style .contact-form-action .account-desc a {
-  color: #1dd3f8;
-  margin-left: 10px;
-  font-weight: 600;
-}
-.user-area-all-style .contact-form-action #chb1 {
-  position: relative;
-  top: 1px;
-}
-.user-area-all-style .contact-form-action #chb2 {
-  position: relative;
-  top: 1px;
-}
-.user-area-all-style .contact-form-action .forget {
-  float: right;
-  color: #1dd3f8;
-  font-weight: 600;
-}
-.user-area-all-style .contact-form-action .now-register {
-  font-weight: 600;
-  float: right;
-  margin-bottom: 30px;
-}
-.user-area-all-style .contact-form-action .now-register a {
-  color: #1dd3f8;
-}
-.user-area-all-style .contact-form-action .now-log-in {
-  color: #1dd3f8;
-  font-weight: 600;
-}
-.user-area-all-style .contact-form-action .now-log-in .font-q {
-  font-weight: 600;
 }
 
 .ask-question {
@@ -4273,96 +4106,8 @@ textarea.form-control {
   margin-bottom: 4px;
 }
 
-.contact-info-area .single-contact-info {
-  text-align: center;
-  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
-  margin-bottom: 30px;
-  padding: 30px;
-  transition: all 0.5s;
-  border-radius: 4px;
-}
-.contact-info-area .single-contact-info i {
-  display: block;
-  color: #1dd3f8;
-  transition: all 0.5s;
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto 20px;
-  line-height: 50px;
-  border: 2px dotted #1dd3f8;
-  border-radius: 50%;
-}
-.contact-info-area .single-contact-info h3 {
-  transition: all 0.5s;
-}
-.contact-info-area .single-contact-info p {
-  margin: 0;
-}
-.contact-info-area .single-contact-info a {
-  color: #4d4d4d;
-  transition: all 0.5s;
-}
-.contact-info-area .single-contact-info:hover {
-  background-color: #1dd3f8;
-}
-.contact-info-area .single-contact-info:hover i {
-  color: #ffffff;
-  border-color: #ffffff;
-}
-.contact-info-area .single-contact-info:hover h3 {
-  color: #ffffff;
-}
-.contact-info-area .single-contact-info:hover p {
-  color: #ffffff;
-}
-.contact-info-area .single-contact-info:hover a {
-  color: #ffffff;
-}
-
 #map {
   height: 445px;
-}
-
-.main-contact-area .contact-wrap {
-  max-width: unset;
-}
-.main-contact-area .contact-wrap .section-title {
-  text-align: center !important;
-  max-width: 600px;
-}
-.main-contact-area .contact-wrap .section-title h2 {
-  margin-bottom: 10px;
-}
-.main-contact-area .contact-wrap .form-group {
-  margin-bottom: 30px;
-}
-.main-contact-area .contact-wrap .default-btn {
-  margin: auto;
-  display: table;
-  cursor: pointer;
-}
-.main-contact-area .contact-wrap .contact-form {
-  background-color: #ffffff;
-  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  padding: 50px;
-  border-radius: 4px;
-}
-.main-contact-area .contact-wrap .contact-form #msgSubmit {
-  position: unset;
-  text-align: center;
-  margin-top: 20px;
-}
-.main-contact-area .contact-wrap .contact-form .hidden {
-  display: none;
-}
-.main-contact-area .contact-wrap .form-control {
-  border-radius: 4px !important;
-}
-
-.contact-info-three .contact-wrap .contact-form {
-  padding: 48px;
 }
 
 .features-area-inner-style .single-features {
@@ -4423,16 +4168,6 @@ textarea.form-control {
 }
 .service-sidebar-area .service-list ul li:hover a {
   color: #ffffff;
-}
-.service-sidebar-area .service-faq .faq-accordion .accordion .accordion-item {
-  box-shadow: none;
-}
-.service-sidebar-area .service-faq .faq-accordion .accordion .accordion-title {
-  font-size: 17px;
-  font-weight: 600;
-}
-.service-sidebar-area .service-faq .faq-accordion .accordion .accordion-title span {
-  top: 11px;
 }
 .service-sidebar-area .paint {
   margin-bottom: 15px;

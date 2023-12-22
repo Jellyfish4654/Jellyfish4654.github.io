@@ -2,14 +2,19 @@ import React from "react";
 
 const partnerDataTier3 = [
   {
-    image: "/images/brands/brand1.png",
-    url: "#",
+    image: "/images/sponsors/summertech.png",
+    url: "https://www.summertech.net/",
     aosDelay: "100",
   },
   {
-    image: "/images/brands/brand2.png",
-    url: "#",
+    image: "/images/sponsors/coditum.png",
+    url: "https://coditum.com/",
     aosDelay: "200",
+  },
+  {
+    image: "/images/sponsors/teachforth.png",
+    url: "https://teachforth.org/",
+    aosDelay: "300",
   },
 ];
 

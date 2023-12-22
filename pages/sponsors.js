@@ -10,7 +10,7 @@ export default function SponsorPage() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Thank You to Our Generous Sponsors"
+        pageTitle="Thank You to Our Sponsors"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Sponsors"

@@ -16,12 +16,12 @@ export default function SponsorPage() {
         activePageText="Sponsors"
       />
 
-      <div className="pb-50" style={{ marginBottom: '40px' }}> {/* Adjust space here */}
-        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors</h2>
+      <div className="pb-50" style={{ marginBottom: '40px' }}>
+        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors ($500+)</h2>
         <SponsorTier3 />
       </div>
 
-      <div className="pb-50" style={{ marginBottom: '40px' }}> {/* Adjust space here */}
+      <div className="pb-50">
         <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Partners</h2>
         <PartnerTier />
       </div>

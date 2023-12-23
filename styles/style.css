@@ -2455,34 +2455,30 @@ textarea.form-control {
 .brand-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: flex-start;
   margin-right: -5px;
   margin-left: -5px;
 }
-
 .brand-list .single-brand {
-  flex: 1 1 auto;
-  max-width: calc(20% - 10px);
-  box-sizing: border-box;
+  flex: 0 0 24%;
+  max-width: 20%;
   padding-left: 5px;
   padding-right: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
   margin-bottom: 50px;
 }
-
 .brand-list .single-brand a {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  transition: all 0.6s ease;
+  height: 100px;
+  width: auto;
   overflow: hidden;
 }
 
 .brand-list .single-brand a img {
-  max-height: 100px;
+  height: 100%;
   width: auto;
-  max-width: 100%;
   object-fit: contain;
 }
 

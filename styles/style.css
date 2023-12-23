@@ -2467,10 +2467,19 @@ textarea.form-control {
   margin-bottom: 50px;
 }
 .brand-list .single-brand a {
-  display: block;
+  display: inline-block;
   text-align: center;
   position: relative;
   transition: all 0.6s ease;
+  height: 100px;
+  width: auto;
+  overflow: hidden;
+}
+
+.brand-list .single-brand a img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
 }
 
 .main-banner-area-three {

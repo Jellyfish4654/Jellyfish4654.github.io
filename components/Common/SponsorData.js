@@ -23,7 +23,13 @@ const sponsorDataTier2 = [
 
 const sponsorDataTier1 = [
 ];
-
+const partnerData = [
+  {
+    image: "/images/sponsors/VRTX.png",
+    url: "https://printvrtx.com/",
+    aosDelay: "100",
+  },
+];
 const SponsorTier = ({ sponsorData }) => (
   <>
     <div className="brand-area">
@@ -51,5 +57,6 @@ const SponsorTier = ({ sponsorData }) => (
 const SponsorTier3 = () => <SponsorTier sponsorData={sponsorDataTier3} />;
 const SponsorTier2 = () => <SponsorTier sponsorData={sponsorDataTier2} />;
 const SponsorTier1 = () => <SponsorTier sponsorData={sponsorDataTier1} />;
+const PartnerTier = () => <SponsorTier sponsorData={partnerData} />;
 
-export { SponsorTier1, SponsorTier2, SponsorTier3 };
+export { SponsorTier1, SponsorTier2, SponsorTier3, PartnerTier };

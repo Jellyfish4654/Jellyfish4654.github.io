@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import { PartnerTier1, PartnerTier2, PartnerTier3 } from "../components/Common/SponsorData";
+import { SponsorTier1, SponsorTier2, SponsorTier3, PartnerTier } from "../components/Common/SponsorData";
 import Footer from "../components/Layouts/Footer";
 
 export default function SponsorPage() {
@@ -16,10 +16,16 @@ export default function SponsorPage() {
         activePageText="Sponsors"
       />
 
-      <div className="pb-50">
-      <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors</h2>
-        <PartnerTier3 />
+      <div className="pb-50" style={{ marginBottom: '40px' }}> {/* Adjust space here */}
+        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors</h2>
+        <SponsorTier3 />
       </div>
+
+      <div className="pb-50" style={{ marginBottom: '40px' }}> {/* Adjust space here */}
+        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Partners</h2>
+        <PartnerTier />
+      </div>
+
       <Footer />
     </>
   );

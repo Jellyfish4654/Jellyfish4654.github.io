@@ -1,6 +1,6 @@
 import React from "react";
 
-const partnerDataTier3 = [
+const sponsorDataTier3 = [
   {
     image: "/images/sponsors/summertech.png",
     url: "https://www.summertech.net/",
@@ -18,18 +18,18 @@ const partnerDataTier3 = [
   },
 ];
 
-const partnerDataTier2 = [
+const sponsorDataTier2 = [
 ];
 
-const partnerDataTier1 = [
+const sponsorDataTier1 = [
 ];
 
-const PartnerTier = ({ partnerData }) => (
+const SponsorTier = ({ sponsorData }) => (
   <>
     <div className="brand-area">
       <div className="container">
         <div className="brand-list">
-          {partnerData.map((value, i) => (
+          {sponsorData.map((value, i) => (
             <div
               className="single-brand"
               data-aos="fade-in"
@@ -48,8 +48,8 @@ const PartnerTier = ({ partnerData }) => (
   </>
 );
 
-const PartnerTier3 = () => <PartnerTier partnerData={partnerDataTier3} />;
-const PartnerTier2 = () => <PartnerTier partnerData={partnerDataTier2} />;
-const PartnerTier1 = () => <PartnerTier partnerData={partnerDataTier1} />;
+const SponsorTier3 = () => <SponsorTier sponsorData={sponsorDataTier3} />;
+const SponsorTier2 = () => <SponsorTier sponsorData={sponsorDataTier2} />;
+const SponsorTier1 = () => <SponsorTier sponsorData={sponsorDataTier1} />;
 
-export { PartnerTier1, PartnerTier2, PartnerTier3 };
+export { SponsorTier1, SponsorTier2, SponsorTier3 };

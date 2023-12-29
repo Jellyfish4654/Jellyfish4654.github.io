@@ -10,14 +10,14 @@ export default function Index() {
     <>
       <Helmet>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZW1M1VG099"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMZC367YMV"></script>
         <script>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-ZW1M1VG099');
+            gtag('config', 'G-LMZC367YMV');
           `}
         </script>
       </Helmet>

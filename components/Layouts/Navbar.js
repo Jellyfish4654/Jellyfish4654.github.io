@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import GoogleTag from './path-to-GoogleTag-component'; // Update this import path
 
 const Navbar = () => {
   // Add active class
@@ -36,6 +37,7 @@ const Navbar = () => {
 
   return (
     <>
+      <GoogleTag /> {/* Google Tag rendered here */}
       <div id="navbar" className="navbar-area fixed-top">
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">

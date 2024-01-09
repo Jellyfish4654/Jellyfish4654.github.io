@@ -2,19 +2,23 @@ import React from "react";
 
 const sponsorDataTier3 = [
   {
+    image: "/images/sponsors/schuster.png",
+    aosDelay: "100",
+  },
+  {
     image: "/images/sponsors/summertech.png",
     url: "https://www.summertech.net/",
-    aosDelay: "100",
+    aosDelay: "200",
   },
   {
     image: "/images/sponsors/coditum.png",
     url: "https://coditum.com/",
-    aosDelay: "200",
+    aosDelay: "300",
   },
   {
     image: "/images/sponsors/teachforth.png",
     url: "https://teachforth.org/",
-    aosDelay: "300",
+    aosDelay: "400",
   },
 ];
 

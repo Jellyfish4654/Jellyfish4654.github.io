@@ -7,7 +7,6 @@ const Navbar = () => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
-  // console.log(router.asPath)
 
   useEffect(() => {
     setCurrentPath(router.asPath);
@@ -60,6 +59,11 @@ const Navbar = () => {
               <span className="icon-bar middle-bar"></span>
               <span className="icon-bar bottom-bar"></span>
             </button>
+
+            {/* Folding@Home Widget */}
+            <iframe src="https://nacl.foldingathome.org/micro.html?team=1065209&power=full"
+              scrolling="no" frameBorder="0" width="132" height="68"
+              style={{ float: 'right', marginTop: '10px' }}></iframe>
 
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav m-auto">

@@ -21,7 +21,7 @@ const post_CenterStage = () => {
                   <div className="entry-meta">
                     <ul>
                       <li>
-                        <span>Posted On:</span> September 9 , 2023
+                        <span>Posted On:</span> September 9, 2023
                       </li>
                     </ul>
                   </div>
@@ -55,7 +55,7 @@ const post_CenterStage = () => {
                     </div>
 
                     <div className="nav-next">
-                      <Link href="#">
+                      <Link href="/news/albany_2023_2024">
                         Next Post <i className="bx bx-right-arrow-alt"></i>
                       </Link>
                     </div>

@@ -36,12 +36,45 @@ const post_Albany_2023_2024 = () => {
   <meta name="generator" content="pdf2htmlEX" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <style
-    type="text/css"
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n/*! \n * Base CSS for pdf2htmlEX\n * Copyright 2012,2013 Lu Wang <coolwanglu@gmail.com> \n * https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/share/LICENSE\n */#sidebar{position:absolute;top:0;left:0;bottom:0;width:250px;padding:0;margin:0;overflow:auto}#page-container{position:absolute;top:0;left:0;margin:0;padding:0;border:0}@media screen{#sidebar.opened+#page-container{left:250px}#page-container{bottom:0;right:0;overflow:auto}.loading-indicator{display:none}.loading-indicator.active{display:block;position:absolute;width:64px;height:64px;top:50%;left:50%;margin-top:-32px;margin-left:-32px}.loading-indicator img{position:absolute;top:0;left:0;bottom:0;right:0}}@media print{@page{margin:0}html{margin:0}body{margin:0;-webkit-print-color-adjust:exact}#sidebar{display:none}#page-container{width:auto;height:auto;overflow:visible;background-color:transparent}.d{display:none}}.pf{position:relative;background-color:white;overflow:hidden;margin:0;border:0}.pc{position:absolute;border:0;padding:0;margin:0;top:0;left:0;width:100%;height:100%;overflow:hidden;display:block;transform-origin:0 0;-ms-transform-origin:0 0;-webkit-transform-origin:0 0}.pc.opened{display:block}.bf{position:absolute;border:0;margin:0;top:0;bottom:0;width:100%;height:100%;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none}.bi{position:absolute;border:0;margin:0;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none}@media print{.pf{margin:0;box-shadow:none;page-break-after:always;page-break-inside:avoid}@-moz-document url-prefix(){.pf{overflow:visible;border:1px solid #fff}.pc{overflow:visible}}}.c{position:absolute;border:0;padding:0;margin:0;overflow:hidden;display:block}.t{position:absolute;white-space:pre;font-size:1px;transform-origin:0 100%;-ms-transform-origin:0 100%;-webkit-transform-origin:0 100%;unicode-bidi:bidi-override;-moz-font-feature-settings:\"liga\" 0}.t:after{content:''}.t:before{content:'';display:inline-block}.t span{position:relative;unicode-bidi:bidi-override}._{display:inline-block;color:transparent;z-index:-1}::selection{background:rgba(127,255,255,0.4)}::-moz-selection{background:rgba(127,255,255,0.4)}.pi{display:none}.d{position:absolute;transform-origin:0 100%;-ms-transform-origin:0 100%;-webkit-transform-origin:0 100%}.it{border:0;background-color:rgba(255,255,255,0.0)}.ir:hover{cursor:pointer}"
-    }}
-  />
+  type="text/css"
+  dangerouslySetInnerHTML={{
+    __html:
+      "\n/*! \n * Base CSS for pdf2htmlEX\n * Copyright 2012,2013 Lu Wang <coolwanglu@gmail.com> \n * https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/share/LICENSE\n */\n" +
+      "#page-container { position: absolute; top: 0; left: 0; width: 100%; margin: 0; padding: 0; border: 0; bottom: 0; right: 0; overflow: auto; }\n" +
+      ".loading-indicator { display: none; }\n" +
+      ".loading-indicator.active { display: block; position: absolute; width: 64px; height: 64px; top: 50%; left: 50%; margin-top: -32px; margin-left: -32px; }\n" +
+      ".loading-indicator img { position: absolute; top: 0; left: 0; bottom: 0; right: 0; }\n" +
+      "@media print {\n" +
+      "  @page { margin: 0; }\n" +
+      "  html { margin: 0; }\n" +
+      "  body { margin: 0; -webkit-print-color-adjust: exact; }\n" +
+      "  #page-container { width: auto; height: auto; overflow: visible; background-color: transparent; }\n" +
+      "  .d { display: none; }\n" +
+      "}\n" +
+      ".pf { position: relative; background-color: white; overflow: hidden; margin: 0; border: 0; }\n" +
+      ".pc { position: absolute; border: 0; padding: 0; margin: 0; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; display: block; transform-origin: 0 0; -ms-transform-origin: 0 0; -webkit-transform-origin: 0 0; }\n" +
+      ".pc.opened { display: block; }\n" +
+      ".bf { position: absolute; border: 0; margin: 0; top: 0; bottom: 0; width: 100%; height: 100%; -ms-user-select: none; -moz-user-select: none; -webkit-user-select: none; user-select: none; }\n" +
+      ".bi { position: absolute; border: 0; margin: 0; -ms-user-select: none; -moz-user-select: none; -webkit-user-select: none; user-select: none; }\n" +
+      "@media print {\n" +
+      "  .pf { margin: 0; box-shadow: none; page-break-after: always; page-break-inside: avoid; }\n" +
+      "  @-moz-document url-prefix() { .pf { overflow: visible; border: 1px solid #fff; } .pc { overflow: visible; } }\n" +
+      "}\n" +
+      ".c { position: absolute; border: 0; padding: 0; margin: 0; overflow: hidden; display: block; }\n" +
+      ".t { position: absolute; white-space: pre; font-size: 1px; transform-origin: 0 100%; -ms-transform-origin: 0 100%; -webkit-transform-origin: 0 100%; unicode-bidi: bidi-override; -moz-font-feature-settings: \"liga\" 0; }\n" +
+      ".t:after { content: ''; }\n" +
+      ".t:before { content: ''; display: inline-block; }\n" +
+      ".t span { position: relative; unicode-bidi: bidi-override; }\n" +
+      "._ { display: inline-block; color: transparent; z-index: -1; }\n" +
+      "::selection { background: rgba(127,255,255,0.4); }\n" +
+      "::-moz-selection { background: rgba(127,255,255,0.4); }\n" +
+      ".pi { display: none; }\n" +
+      ".d { position: absolute; transform-origin: 0 100%; -ms-transform-origin: 0 100%; -webkit-transform-origin: 0 100%; }\n" +
+      ".it { border: 0; background-color: rgba(255,255,255,0.0); }\n" +
+      ".ir:hover { cursor: pointer; }\n"
+  }}
+/>
+
   <style
     type="text/css"
     dangerouslySetInnerHTML={{
@@ -57,9 +90,7 @@ const post_Albany_2023_2024 = () => {
     }}
   />
   <title />
-  <div id="sidebar">
-    <div id="outline"></div>
-  </div>
+
   <div id="page-container">
     <div id="pf1" className="pf w0 h0" data-page-no={1}>
       <div className="pc pc1 w0 h0">

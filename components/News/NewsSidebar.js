@@ -12,7 +12,7 @@ const NewsSidebar = () => {
           <div className="post-wrap">
             <article className="item">
               <Link href="/news/albany_2023_2024" className="thumb">
-                <span className="fullimage cover bg1" role="img"></span>
+                <span className="fullimage cover bg2" role="img"></span>
               </Link>
 
               <div className="info">

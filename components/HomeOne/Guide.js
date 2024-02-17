@@ -17,7 +17,7 @@ const Guide = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                <Image src={guideIMG} alt="Image" width={360} height={360} />
+                <Image src={guideIMG} alt="Image" width={432} height={432} />
               </div>
             </div>
 

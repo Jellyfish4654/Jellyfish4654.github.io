@@ -11,7 +11,7 @@ const teamData = [
   },
   {
     image: "/images/team/team2.png",
-    name: "Taka Kimura",
+    name: "Lianne Ferentz",
     designation: "Build President",
     aosDelay: "200",
 

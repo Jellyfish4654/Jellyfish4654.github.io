@@ -5,48 +5,49 @@ const teamData = [
     image: "/images/team/team1.png",
     name: "Jocelyn Zheng",
     designation: "Admin President",
-    aosDelay: "101",
-
+    aosDelay: "100",
     socialLinks: [],
   },
   {
     image: "/images/team/team2.png",
     name: "Lianne Ferentz",
     designation: "Build President",
-    aosDelay: "200",
-
+    aosDelay: "150",
     socialLinks: [],
   },
   {
     image: "/images/team/team3.png",
-    name: "Fiona Chen",
+    name: "Martin Ayala",
     designation: "Secretary",
-    aosDelay: "300",
-
+    aosDelay: "200",
     socialLinks: [],
   },
   {
     image: "/images/team/team4.png",
-    name: "Ian Goldfeld",
+    name: "Sasha Harra",
     designation: "Treasurer",
-    aosDelay: "400",
-
+    aosDelay: "250",
     socialLinks: [],
   },
   {
     image: "/images/team/team5.png",
-    name: "Jeffrey Kuo",
-    designation: "Lead Programmer",
-    aosDelay: "500",
-
+    name: "Iris Chen",
+    designation: "Public Relations Officer",
+    aosDelay: "300",
     socialLinks: [],
   },
   {
     image: "/images/team/team6.png",
-    name: "Alex Thompson",
-    designation: "Public Relations Officer",
-    aosDelay: "600",
-
+    name: "Abigail Weintraub",
+    designation: ""
+    aosDelay: "350",
+    socialLinks: [],
+  },
+  {
+    image: "",
+    name: "Andy Montvelisky",
+    designation: ""
+    aosDelay: "400",
     socialLinks: [],
   },
 ];

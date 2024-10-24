@@ -36,13 +36,7 @@ const teamData = [
     aosDelay: "300",
     socialLinks: [],
   },
-  {
-    image: "/images/team/team6.png",
-    name: "Abigail Weintraub",
-    designation: "cool person :)"
-    aosDelay: "350",
-    socialLinks: [],
-  },
+  
 ];
 
 const TeamCard = () => {

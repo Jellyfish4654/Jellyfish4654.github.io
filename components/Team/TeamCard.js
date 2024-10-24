@@ -19,7 +19,7 @@ const teamData = [
     image: "/images/team/team3.png",
     name: "Martin Ayala",
     designation: "Secretary",
-    aosDelay: "201",
+    aosDelay: "200",
     socialLinks: [],
   },
   {
@@ -39,15 +39,8 @@ const teamData = [
   {
     image: "/images/team/team6.png",
     name: "Abigail Weintraub",
-    designation: ""
+    designation: "cool person :)"
     aosDelay: "350",
-    socialLinks: [],
-  },
-  {
-    image: "",
-    name: "Andy Montvelisky",
-    designation: ""
-    aosDelay: "400",
     socialLinks: [],
   },
 ];

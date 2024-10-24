@@ -19,7 +19,7 @@ const teamData = [
     image: "/images/team/team3.png",
     name: "Martin Ayala",
     designation: "Secretary",
-    aosDelay: "200",
+    aosDelay: "201",
     socialLinks: [],
   },
   {

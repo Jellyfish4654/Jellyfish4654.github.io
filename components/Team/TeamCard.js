@@ -39,14 +39,16 @@ const teamData = [
     {
     image: "/images/team/team5.png",
     name: "Abigail Weintraub",
-    designation: "\n",
+    designation: "
+      ",
     aosDelay: "350",
     socialLinks: [],
   },
   {
     image: "/images/team/team5.png",
     name: "Andy Montvelisky",
-    designation: "\n",
+    designation: "
+      ",
     aosDelay: "400",
     socialLinks: [],
   },
@@ -64,7 +66,7 @@ const TeamCard = () => {
                 <div
                   className="col-lg-3 col-sm-6"
                   data-aos="fade-in"
-                  data-aos-duration="1200"
+                  data-aos-duration="120"
                   data-aos-delay={value.aosDelay}
                   key={i}
                 >

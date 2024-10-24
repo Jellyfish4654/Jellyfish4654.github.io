@@ -39,14 +39,14 @@ const teamData = [
     {
     image: "/images/team/abigail.png",
     name: "Abigail Weintraub",
-    designation: "",
+    designation: "⠀",
     aosDelay: "350",
     socialLinks: [],
   },
   {
     image: "/images/team/andy.png",
     name: "Andy Montvelisky",
-    designation: "",
+    designation: "⠀",
     aosDelay: "400",
     socialLinks: [],
   },

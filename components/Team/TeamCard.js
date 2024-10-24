@@ -37,7 +37,7 @@ const teamData = [
     socialLinks: [],
   },
     {
-    image: "/images/team/team5.png",
+    image: "/images/team/abigail.png",
     name: "Abigail Weintraub",
     designation: "\n",
     aosDelay: "350",

@@ -36,6 +36,13 @@ const teamData = [
     aosDelay: "300",
     socialLinks: [],
   },
+    {
+    image: "/images/team/team5.png",
+    name: "Abigail Weintraub",
+    designation: "",
+    aosDelay: "350",
+    socialLinks: [],
+  },
   
 ];
 

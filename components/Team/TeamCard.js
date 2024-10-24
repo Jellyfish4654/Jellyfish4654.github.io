@@ -38,8 +38,6 @@ const teamData = [
   },
     {
     image: "/images/team/abigail.png",
-    width: 140 px,
-    height: 140 px,
     name: "Abigail Weintraub",
     designation: "⠀",
     aosDelay: "350",

@@ -44,7 +44,7 @@ const teamData = [
     socialLinks: [],
   },
   {
-    image: "/images/team/team5.png",
+    image: "/images/team/andy.png",
     name: "Andy Montvelisky",
     designation: "\n",
     aosDelay: "400",

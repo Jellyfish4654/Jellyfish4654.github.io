@@ -2,28 +2,28 @@ import React from "react";
 
 const teamData = [
   {
-    image: "/images/team/team1.png",
+    image: "/images/team/team5.png",
     name: "Jocelyn Zheng",
     designation: "Admin President",
     aosDelay: "100",
     socialLinks: [],
   },
   {
-    image: "/images/team/team2.png",
+    image: "/images/team/team5.png",
     name: "Lianne Ferentz",
     designation: "Build President",
     aosDelay: "150",
     socialLinks: [],
   },
   {
-    image: "/images/team/team3.png",
+    image: "/images/team/team5.png",
     name: "Martin Ayala",
     designation: "Secretary",
     aosDelay: "200",
     socialLinks: [],
   },
   {
-    image: "/images/team/team4.png",
+    image: "/images/team/team5.png",
     name: "Sasha Harra",
     designation: "Treasurer",
     aosDelay: "250",
@@ -39,8 +39,15 @@ const teamData = [
     {
     image: "/images/team/team5.png",
     name: "Abigail Weintraub",
-    designation: "",
+    designation: "\n",
     aosDelay: "350",
+    socialLinks: [],
+  },
+  {
+    image: "/images/team/team5.png",
+    name: "Andy Montvelisky",
+    designation: "\n",
+    aosDelay: "400",
     socialLinks: [],
   },
   

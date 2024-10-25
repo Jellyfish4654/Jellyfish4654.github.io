@@ -50,7 +50,13 @@ const teamData = [
     aosDelay: "400",
     socialLinks: [],
   },
-  
+  {
+    image: "/images/team/noah.jpeg",
+    name: "Noah Sausen",
+    designation: "⠀",
+    aosDelay: "450",
+    socialLinks: [],
+  },
 ];
 
 const TeamCard = () => {

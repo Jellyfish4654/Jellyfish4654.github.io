@@ -54,14 +54,14 @@ const teamData = [
     image: "/images/team/erk.jpeg",
     name: "Eric Chen",
     designation: "⠀",
-    aosDelay: "400",
+    aosDelay: "450",
     socialLinks: [],
   },
   {
     image: "/images/team/noah.jpeg",
     name: "Noah Sausen",
     designation: "⠀",
-    aosDelay: "450",
+    aosDelay: "500",
     socialLinks: [],
   },
 ];

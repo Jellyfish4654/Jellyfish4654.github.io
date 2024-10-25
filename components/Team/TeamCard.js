@@ -37,14 +37,14 @@ const teamData = [
     socialLinks: [],
   },
     {
-    image: "/images/team/abigail.png",
+    image: "/images/team/abigail.jpeg",
     name: "Abigail Weintraub",
     designation: "⠀",
     aosDelay: "350",
     socialLinks: [],
   },
   {
-    image: "/images/team/andy.png",
+    image: "/images/team/andy.jpeg",
     name: "Andy Montvelisky",
     designation: "⠀",
     aosDelay: "400",

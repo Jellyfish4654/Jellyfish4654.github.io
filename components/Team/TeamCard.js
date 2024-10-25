@@ -23,7 +23,7 @@ const teamData = [
     socialLinks: [],
   },
   {
-    image: "/images/team/sasha.png",
+    image: "/images/team/sasha.jpeg",
     name: "Sasha Harra",
     designation: "Treasurer",
     aosDelay: "250",

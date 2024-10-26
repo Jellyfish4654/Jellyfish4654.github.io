@@ -51,13 +51,6 @@ const teamData = [
     socialLinks: [],
   },
   {
-    image: "/images/team/erk.jpeg",
-    name: "Eric Chen",
-    designation: "⠀",
-    aosDelay: "451",
-    socialLinks: [],
-  },
-  {
     image: "/images/team/noah.jpeg",
     name: "Noah Sausen",
     designation: "⠀",

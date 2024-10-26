@@ -22,8 +22,7 @@ const featuresData = [
     iconName: "flaticon-sponsor",
     title: "Sponsors",
     shortText:
-      "Learn about our generous sponsors
-      ",
+      "Learn about our generous sponsors",
     viewDetails: "/sponsors",
     aosDelay: "300",
   },

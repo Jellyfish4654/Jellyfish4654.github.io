@@ -5,7 +5,7 @@ const teamData = [
     image: "/images/team/jocelyn.jpeg",
     name: "Jocelyn Zheng",
     designation: "Admin President",
-    aosDelay: "100",
+    aosDelay: "101",
     socialLinks: [],
   },
   {

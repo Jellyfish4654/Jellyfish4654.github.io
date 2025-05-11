@@ -10,11 +10,11 @@ const sponsorDataTier3 = [
     url: "https://www.summertech.net/",
     aosDelay: "200",
   },
-  {
-    image: "/images/sponsors/coditum.png",
-    url: "https://coditum.com/",
-    aosDelay: "300",
-  },
+  // {
+  //   image: "/images/sponsors/coditum.png",
+  //   url: "https://coditum.com/",
+  //   aosDelay: "300",
+  // },
   {
     image: "/images/sponsors/teachforth.png",
     url: "https://teachforth.org/",
@@ -28,11 +28,11 @@ const sponsorDataTier2 = [
 const sponsorDataTier1 = [
 ];
 const partnerData = [
-  {
-    image: "/images/sponsors/VRTX.png",
-    url: "https://printvrtx.com/",
-    aosDelay: "100",
-  },
+  // {
+  //   image: "/images/sponsors/VRTX.png",
+  //   url: "https://printvrtx.com/",
+  //   aosDelay: "100",
+  // },
 ];
 const SponsorTier = ({ sponsorData }) => (
   <>

@@ -17,14 +17,14 @@ export default function SponsorPage() {
       />
 
       <div className="pb-50" >
-        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors ($500+)</h2>
+        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors ($1500+)</h2>
         <SponsorTier3 />
       </div>
 
-      <div className="pb-50">
+      {/* <div className="pb-50">
         <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Partners</h2>
         <PartnerTier />
-      </div>
+      </div> */}
 
       <Footer />
     </>

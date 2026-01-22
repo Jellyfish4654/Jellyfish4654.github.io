@@ -13,7 +13,7 @@ const CustomForm = () => {
     render={({ subscribe, status, message }) => (
         <div className="page-title-area item-bg1">
         <div className="container">
-          <div className="page-title-content" color="white">
+          <div className="page-title-content">
             <h2>Subscribe to our newsletter!</h2>
             <SimpleForm onSubmitted={formData => subscribe(formData)} />
         {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
@@ -29,3 +29,4 @@ const CustomForm = () => {
 }
 
 export default CustomForm;
+//hoi

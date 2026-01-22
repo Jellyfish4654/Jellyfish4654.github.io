@@ -1,10 +1,14 @@
 import React from "react";
 import Link from "next/link";
+import SubscribeForm from "../components/SubscribeForm.js";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
+    
+
     <>
+      <SubscribeForm />
       <footer className="footer-top-area pt-100 pb-70">
         <div className="container">
           <div className="row">
@@ -93,3 +97,10 @@ const Footer = () => {
 };
 
 export default Footer;
+
+/*
+
+"https://jellyfishbbhs.us6.list-manage.com/subscribe/post?u=10a9db05c9189892653f2aad0&amp;id=a7f291a03b&amp;f_id=00e357e5f0" 
+<input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+*/
+

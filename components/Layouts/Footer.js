@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import SubscribeForm from "../components/SubscribeForm.js";
+import SubscribeForm from "../SubscribeForm.js";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

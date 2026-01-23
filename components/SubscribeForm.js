@@ -11,9 +11,9 @@ const CustomForm = () => {
   <MailchimpSubscribe
     url={url}
     render={({ subscribe, status, message }) => (
-        <div className="page-title-area item-bg1">
+        <div className="page-title-area item-bg1" style = {{backgroundColor: "white"}}>
         <div className="container">
-          <div className="page-title-content" style = {{backgroundColor: "white"}}>
+          <div className="page-title-content" >
             <h2>Subscribe to our newsletter!</h2>
             <SimpleForm onSubmitted={formData => subscribe(formData)} />
         {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}

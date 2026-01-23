@@ -14,7 +14,7 @@ const CustomForm = () => {
         <div className="page-title-area item-bg1" style = {{backgroundColor: "white"}}>
         <div className="container">
           <div className="page-title-content" >
-            <h2>Subscribe to our newsletter!</h2>
+            <h2 style = {{color: "black"}}>Subscribe to our newsletter!</h2>
             <SimpleForm onSubmitted={formData => subscribe(formData)} />
         {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
         {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}

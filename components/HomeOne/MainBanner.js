@@ -6,8 +6,8 @@ const MainBanner = () => {
     <>
       <section className="main-banner-area main-banner-area-one">
         <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-7">
               <div className="banner-text">
                 <h1
                   data-aos="fade-in"
@@ -33,22 +33,20 @@ const MainBanner = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
-              {/* Main Image */}
+            <div className="col-lg-5">
+              {/* Responsive Logo */}
               <div className="banner-main-img banner-one-main-img">
-                <img src="/images/home-one/main-img1.png"
+                <img src="/images/home-one/jellogo.png"
                   alt="Image"
-                  onerror="this.style.display='none'"
                 />
               </div>
 
-              {/* Banner Shape Images */}
+              {/* Wide-Screen Logo*/}
               <div className="banner-img">
                 <img
                   className="animate__animated animate__fadeInUp animate__fast"
-                  src="/images/home-one/shape1.png"
+                  src="/images/home-one/jellogo.png"
                   alt="Image"
-                  onerror="this.style.display='none'"
                 />
               </div>
             </div>

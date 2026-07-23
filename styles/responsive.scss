@@ -143,7 +143,7 @@
     }
     .main-banner-area {
         padding-top: 130px;
-        padding-bottom: 100px;
+        padding-bottom: 80px;
         .banner-text {
             text-align: center;
             h1 {
@@ -161,9 +161,12 @@
                 }
             }
         }
+        .col-lg-5 {
+            width: 50% !important;
+        }
         .banner-main-img {
             display: block;
-            margin-top: 30px;
+            margin-top: 50px;
         }
         .container-fluid {
             max-width: 540px;
@@ -1246,7 +1249,7 @@
     }
     .main-banner-area {
         padding-top: 130px;
-        padding-bottom: 180px;
+        padding-bottom: 150px;
         .banner-text {
             text-align: center;
             max-width: unset;
@@ -1258,6 +1261,9 @@
                 font-size: 15px;
                 margin-bottom: 30px;
             }
+        }
+        .col-lg-5 {
+            width: 40% !important;
         }
         .banner-main-img {
             display: block;
@@ -1685,21 +1691,8 @@
         padding-bottom: 250px;
         &.main-banner-area-one {
             .banner-img {
-                top: -115px;
-                img:nth-child(2) {
-                    top: -15px;
-                    width: 300px;
-                }
-                img:nth-child(3) {
-                    top: 0;
-                    left: 45px;
-                    width: 200px;
-                }
-                img:nth-child(4) {
-                    top: 80px;
-                    right: 0;
-                    max-width: 150px;
-                }
+                bottom: -200px;
+                width: 200px;
             }
         }
     }
@@ -1970,19 +1963,7 @@
             }
             .banner-img  {
                 img {
-                    &:nth-child(1) {
-                        bottom: -445px;
-                    }
-                    &:nth-child(2) {
-                        bottom: -850px;
-                        left: 130px;
-                    }
-                    &:nth-child(3) {
-                        left: 210px;
-                    }
-                    &:nth-child(4) {
-                        right: 170px;
-                    }
+                    bottom: -250px;
                 }
             }
         }

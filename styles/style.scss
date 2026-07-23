@@ -1111,7 +1111,7 @@ textarea {
   .banner-text {
     position: relative;
     max-width: 640px;
-    margin-left: auto;
+    margin-left: 40%;
 
     h1 {
       color: $white-color;
@@ -1157,25 +1157,10 @@ textarea {
       top: 0;
       img {
         position: absolute;
-        &:nth-child(1) {
-          bottom: -440px;
-          right: 0;
-          left: 0;
-          margin: auto;
-        }
-        &:nth-child(2) {
-          top: -170px;
-          left: 0;
-        }
-        &:nth-child(3) {
-          top: -100px;
-          left: 70px;
-          // animation: moVebounce 5s linear infinite;
-        }
-        &:nth-child(4) {
-          top: -33px;
-          right: 65px;
-        }
+        bottom: -250px;
+        right: 0;
+        left: 0;
+        margin: 0;
       }
     }
     .over-shape {

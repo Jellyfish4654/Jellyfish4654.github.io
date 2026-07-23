@@ -11,7 +11,7 @@ export default function AboutUs() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Meet the Team"
+        pageTitle="About the Team"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Our Team"

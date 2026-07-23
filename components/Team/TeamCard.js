@@ -2,66 +2,45 @@ import React from "react";
 
 const teamData = [
   {
-    image: "/images/team/jocelyn.jpeg",
-    name: "Jocelyn Zheng",
-    designation: "Admin President",
-    aosDelay: "101",
-    socialLinks: [],
-  },
-  {
-    image: "/images/team/e.png",
-    name: "Lianne Ferentz",
-    designation: "Build President",
-    aosDelay: "150",
-    socialLinks: [],
-  },
-  {
-    image: "/images/team/martin.jpeg",
-    name: "Martin Ayala",
-    designation: "Secretary",
-    aosDelay: "200",
+    image: "/images/team/erk.jpeg",
+    name: "Eric Chen",
+    designation: "President",
+    aosDelay: "100",
     socialLinks: [],
   },
   {
     image: "/images/team/sash.jpeg",
     name: "Sasha Harra",
-    designation: "Treasurer",
+    designation: "Hardware Officer",
+    aosDelay: "150",
+    socialLinks: [],
+  },
+  {
+    image: "/images/team/smiley.png",
+    name: "Noah Sausen",
+    designation: "Software Officer",
+    aosDelay: "200",
+    socialLinks: [],
+  },
+  {
+    image: "/images/team/smiley.png",
+    name: "Iris Chen",
+    designation: "Public Relations Officer",
     aosDelay: "250",
     socialLinks: [],
   },
-  {
-    image: "/images/team/e.png",
-    name: "Iris Chen",
-    designation: "Public Relations Officer",
+    {
+    image: "/images/team/smiley.png",
+    name: "Cynthia Chen",
+    designation: "Secretary",
     aosDelay: "300",
     socialLinks: [],
   },
-    {
-    image: "/images/team/abigail.jpeg",
-    name: "Abigail Weintraub",
-    designation: "⠀",
+  {
+    image: "/images/team/smiley.png",
+    name: "Isaac Held",
+    designation: "Treasurer",
     aosDelay: "350",
-    socialLinks: [],
-  },
-  {
-    image: "/images/team/andy.jpeg",
-    name: "Andy Montvelisky",
-    designation: "⠀",
-    aosDelay: "400",
-    socialLinks: [],
-  },
-  {
-    image: "/images/team/erk.jpeg",
-    name: "Eric Chen",
-    designation: "⠀",
-    aosDelay: "450",
-    socialLinks: [],
-  },
-  {
-    image: "/images/team/noah.jpeg",
-    name: "Noah Sausen",
-    designation: "⠀",
-    aosDelay: "500",
     socialLinks: [],
   },
 ];
@@ -71,6 +50,7 @@ const TeamCard = () => {
     <>
       <section className="team-area ptb-100">
         <div className="container">
+          <h1 style={{paddingBottom: '1rem'}}>Meet the Board</h1>
           <div className="row justify-content-center">
             {teamData &&
               teamData.map((value, i) => (

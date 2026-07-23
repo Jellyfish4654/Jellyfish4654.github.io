@@ -60,11 +60,6 @@ const Navbar = () => {
               <span className="icon-bar bottom-bar"></span>
             </button>
 
-            {/* Folding@Home Widget */}
-            <iframe src="https://nacl.foldingathome.org/micro.html?team=1065209&power=full"
-              scrolling="no" frameBorder="0" width="0" height="0"
-              style={{ float: 'right', marginTop: '10px' }}></iframe>
-
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">

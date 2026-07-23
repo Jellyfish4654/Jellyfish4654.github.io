@@ -10,8 +10,8 @@ import "swiper/css";
 import "swiper/css/bundle";
 
 // Global styles
-import "../styles/style.css";
-import "../styles/responsive.css";
+import "../styles/style.scss";
+import "../styles/responsive.scss";
 
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";

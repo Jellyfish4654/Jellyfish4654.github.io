@@ -9,11 +9,10 @@ const Footer = () => {
     
 
     <>
-      <SubscribeForm />
       <footer className="footer-top-area pt-100 pb-70">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div
                 className="single-widget"
                 data-aos="fade-in"
@@ -37,6 +36,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+              <SubscribeForm />
             </div>
 
             <div className="col-lg-3 col-md-6">

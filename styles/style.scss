@@ -2081,6 +2081,28 @@ textarea {
       }
     }
   }
+  .subscribe-form {
+    padding-bottom: 2em;
+    padding-right: 1em;
+    min-width: 300px;
+    * {
+      color: white;
+    }
+    input {
+      border-radius: 5px;
+      padding-left: 5px;
+      color: black;
+    }
+    button {
+      background-color: white;
+      margin-left: 1em;
+      color: black;
+      border-radius: 5px;
+    }
+  }
+  .col-lg-4 {
+    width: 30%;
+  }
 }
 .single-widget {
   margin-bottom: 30px;

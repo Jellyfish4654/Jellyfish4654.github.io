@@ -2074,15 +2074,22 @@ textarea {
       color: white;
     }
     input {
-      border-radius: 5px;
+      border-radius: 8px;
       padding-left: 5px;
       color: black;
+      border: none;
     }
     button {
-      background-color: white;
-      margin-left: 1em;
-      color: black;
-      border-radius: 5px;
+      background-color: #3955bc;
+      transition: all 0.2s ease;
+      margin-left: 0.5em;
+      color: white;
+      border-radius: 8px;
+      &:hover {
+        background-color: #1a75ff;
+        transform: translateX(0px);
+        animation: pulse 0.3s linear;
+      }
     }
   }
   .col-lg-4 {
@@ -2196,7 +2203,7 @@ textarea {
         padding-left: 0;
         &:hover {
           transform: translateX(0px);
-          animation: rubberBand 1s linear;
+          animation: tada 1s linear;
         }
       }
       &:nth-child(2) {

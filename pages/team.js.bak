@@ -4,13 +4,6 @@ import PageBanner from "../components/Common/PageBanner";
 import TeamCard from "../components/Team/TeamCard";
 import Footer from "../components/Layouts/Footer";
 
-// Disable page
-export async function getServerSideProps() {
-    return {
-        notFound: true
-    };
-}
-
 export default function Team() {
   return (
     <>

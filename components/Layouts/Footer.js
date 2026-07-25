@@ -38,6 +38,7 @@ const Footer = () => {
                   <li>
                     <a href="mailto:bbhsrobotics4654@gmail.com" target="_blank">
                       <i className="bx bxl-gmail"></i>
+                      <span>bbhsrobotics4654@gmail.com</span>
                     </a>
                   </li>
                 </ul>

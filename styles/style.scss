@@ -2070,30 +2070,31 @@ textarea {
     padding-bottom: 2em;
     padding-right: 1em;
     min-width: 300px;
+
     * {
       color: white;
     }
+
     input {
       border-radius: 8px;
       padding-left: 5px;
       color: black;
       border: none;
     }
+
     button {
       background-color: #3955bc;
       transition: all 0.2s ease;
       margin-left: 0.5em;
       color: white;
       border-radius: 8px;
+
       &:hover {
         background-color: #1a75ff;
         transform: translateX(0px);
         animation: pulse 0.3s linear;
       }
     }
-  }
-  .col-lg-4 {
-    width: 30%;
   }
   .footer-sponsors {
     display: flex;
@@ -2205,18 +2206,20 @@ textarea {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
 
     li {
       display: inline-block;
-      margin-right: 8px;
       margin-bottom: 0;
       a {
         width: 30px;
         height: 30px;
         line-height: 32px;
-        background-color: #f80cd9;
+        background-color: #e42dc8;
         color: $white-color;
-        border-radius: 50%;
+        border-radius: 100000px;
         text-align: center;
         font-size: 15px;
         position: relative;
@@ -2224,6 +2227,9 @@ textarea {
         &:hover {
           transform: translateX(0px);
           animation: tada 1s linear;
+        }
+        i {
+          color: $white-color;
         }
       }
       &:nth-child(2) {
@@ -2234,8 +2240,18 @@ textarea {
       }
       &:nth-child(3) {
         a {
-          background-color: #1da1f2;
-          color: $white-color;
+          background-color: #c53737;
+          width: auto;
+          padding: 0 10px;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          &:hover {
+            transform: translateX(0px);
+            animation: pulse 0.3s linear;
+          }
         }
       }
       &:nth-child(4) {

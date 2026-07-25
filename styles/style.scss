@@ -2077,9 +2077,11 @@ textarea {
 
     input {
       border-radius: 8px;
-      padding-left: 5px;
+      padding-left: 8px;
       color: black;
       border: none;
+      width: 20em;
+      max-width: 70%;
     }
 
     button {

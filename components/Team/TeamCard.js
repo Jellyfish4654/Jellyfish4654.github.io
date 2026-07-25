@@ -2,42 +2,42 @@ import React from "react";
 
 const teamData = [
   {
-    image: "/images/team/erk.jpeg",
+    image: "/images/headshots/eric.png",
     name: "Eric Chen",
     designation: "President",
     aosDelay: "100",
     socialLinks: [],
   },
   {
-    image: "/images/team/sash.jpeg",
+    image: "/images/headshots/sasha.png",
     name: "Sasha Harra",
     designation: "Hardware Officer",
     aosDelay: "150",
     socialLinks: [],
   },
   {
-    image: "/images/team/smiley.png",
+    image: "/images/headshots/noah.png",
     name: "Noah Sausen",
     designation: "Software Officer",
     aosDelay: "200",
     socialLinks: [],
   },
   {
-    image: "/images/team/smiley.png",
+    image: "/images/headshots/iris.png",
     name: "Iris Chen",
     designation: "Public Relations Officer",
     aosDelay: "250",
     socialLinks: [],
   },
     {
-    image: "/images/team/smiley.png",
+    image: "/images/headshots/cynthia.png",
     name: "Cynthia Chen",
     designation: "Secretary",
     aosDelay: "300",
     socialLinks: [],
   },
   {
-    image: "/images/team/smiley.png",
+    image: "/images/headshots/isaac.png",
     name: "Isaac Held",
     designation: "Treasurer",
     aosDelay: "350",

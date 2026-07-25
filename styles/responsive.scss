@@ -430,15 +430,7 @@
         margin-top: 30px;
     }
     .single-team {
-        background-color: #060542;
-        .team-content {
-            h3 {
-                color: #ffffff;
-            }
-            span {
-                color: #c6c6c6;
-            }
-        }
+
     }
     .slider-item {
         .slider-text {
@@ -967,6 +959,10 @@
         }
     }
 
+    .brand-list {
+        justify-content: center;
+    }
+
     .brand-list .single-brand {
         -ms-flex: 0 0 33.33%;
         flex: 0 0 33.33%;
@@ -1048,6 +1044,10 @@
                 font-size: 35px;
             }
         }
+    }
+    .single-team {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -1174,6 +1174,10 @@
     }
     .service-card {
         padding: 20px 15px;
+    }
+    .single-team {
+        margin-left: inherit;
+        margin-right: inherit;
     }
 }
 
@@ -1507,17 +1511,6 @@
     }
     .banner-four-main-img {
         margin-top: 30px;
-    }
-    .single-team {
-        background-color: #060542;
-        .team-content {
-            h3 {
-                color: #ffffff;
-            }
-            span {
-                color: #ffffff;
-            }
-        }
     }
     .slider-item {
         .slider-text {

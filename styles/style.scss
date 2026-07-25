@@ -2095,6 +2095,26 @@ textarea {
   .col-lg-4 {
     width: 30%;
   }
+  .footer-sponsors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 10px;
+    a {
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      img {
+        width: 120px;
+      }
+    }
+  }
 }
 .single-widget {
   margin-bottom: 30px;
@@ -2194,7 +2214,7 @@ textarea {
         width: 30px;
         height: 30px;
         line-height: 32px;
-        background-color: #3955bc;
+        background-color: #f80cd9;
         color: $white-color;
         border-radius: 50%;
         text-align: center;

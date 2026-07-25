@@ -17,8 +17,10 @@ export default function SponsorPage() {
       />
 
       <div>
-        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors{/* ($1500+)*/}</h2>
+        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors</h2>
         <SponsorTier3 />
+        <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 1 Sponsors</h2>
+        <SponsorTier1 />
       </div>
 
       {/* <div className="pb-50">

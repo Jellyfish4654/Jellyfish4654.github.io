@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import SubscribeForm from "../SubscribeForm.js";
+import { sponsorDataTier3, sponsorDataTier2, sponsorDataTier1 } from "../Common/SponsorData";
 
 
 const Footer = () => {
@@ -32,6 +33,11 @@ const Footer = () => {
                   <li>
                     <a href="https://www.tiktok.com/@jellyfish4654" target="_blank">
                       <i className="bx bxl-tiktok"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:bbhsrobotics4654@gmail.com" target="_blank">
+                      <i className="bx bxl-gmail"></i>
                     </a>
                   </li>
                 </ul>
@@ -70,23 +76,30 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-5 col-md-6">
               <div
                 className="single-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
-                data-aos-delay="500"
+                data-aos-delay="400"
               >
-                <h3>Information</h3>
+                <h3>Sponsors</h3>
 
-                <ul className="information">
+                <div className="footer-sponsors">
+                    {/*<i className="flaticon-envelope"></i>*/}
+                    {/*<span>Email</span>*/}
+                    {/*bbhsrobotics4654@gmail.com*/}
+                  {[...sponsorDataTier3, ...sponsorDataTier2].map((value) => (
+                      <a className="footer-sponsor" href={value.url} target="_blank" rel="noopener noreferrer">
+                        <img style={ value.background ? {backgroundColor: "white", borderRadius: "50%"} : {}} src={value.image} alt={value.name} />
+                      </a>
+                  ))}
+                  {sponsorDataTier1.map((value) => (
+                      <a href={value.url} target="_blank" rel="noopener noreferrer">{value.name}</a>
+                  ))}
 
-                  <li className="address">
-                    <i className="flaticon-envelope"></i>
-                    <span>Email</span>
-                    bbhsrobotics4654@gmail.com
-                  </li>
-                </ul>
+
+                </div>
               </div>
             </div>
           </div>

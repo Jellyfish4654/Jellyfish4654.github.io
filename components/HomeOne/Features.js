@@ -6,7 +6,7 @@ const featuresData = [
     iconName: "flaticon-team",
     title: "Our Team",
     shortText:
-      "FIRST Tech Challenge Team 4654 Jellyfish",
+      "What we do and our leadership",
     viewDetails: "/about-us",
     aosDelay: "100",
   },

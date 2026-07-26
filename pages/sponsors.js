@@ -17,6 +17,7 @@ export default function SponsorPage() {
       />
 
       <div>
+        <h2 style={{ marginTop: '20px', marginLeft: '20px', marginBottom: '40px'}}>Interested in sponsoring us?<a href="https://drive.google.com/file/d/1ld-w432saaQB9OcNNTSOIIZJRXcn47sM/view" target="_blank" rel="noreferrer noopener"><button style={{marginLeft: '20px'}} className="default-btn">View Sponsor Guide</button></a></h2>
         <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 3 Sponsors</h2>
         <SponsorTier3 />
         <h2 className="sponsor-header" style={{ marginTop: '20px', marginLeft: '20px' }}>Tier 1 Sponsors</h2>

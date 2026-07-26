@@ -22,28 +22,28 @@ const Guide = () => {
               </div>
             </div>
 
-            <div className="col-lg-6" style={{ backgroundColor: `#fff`, padding: '30px', boxShadow: '0 0 20px 3px rgba(0, 0, 0, 0.1)', borderRadius: '10px'}}>
+            <div className="col-lg-6">
               <div
+                style={{ backgroundColor: `#fff`, padding: '30px', boxShadow: '0 0 20px 3px rgba(0, 0, 0, 0.1)', borderRadius: '10px'}}
                 className="guide-content"
                 data-aos="fade-in"
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <h2>Branding Guide</h2>
-                <p>
-                  A guide that outlines our brand strategy, messaging, visual
-                  identity, and photography, serving as a model for other FTC
-                  teams seeking guidance. The detailed information and rules
-                  within the guide ensure consistency in material development
-                  for competitions, press, and the public, enabling viewers to
-                  form accurate, unified images of a team and its endeavors.
+                <h2><Image src={guideIMG} alt="Image" height={120} style={{marginRight: '20px'}}/><span>Branding Guide</span></h2>
+                <p style={{ textWrap: 'pretty' }}>
+                  A guide that outlines our brand strategy and visual
+                  identity. The rules within the guide ensure consistency in
+                  team design, including portfolios and marketing materials.
+                  It also serves as a model for other groups seeking guidance
+                  on how to form unified images of a team or organization.
                 </p>
 
                 <Link
                   href="https://drive.google.com/file/d/1FAi_FWIjCwsi9VkN48IbbdhyYIwLbqgi/view?usp=sharing"
                   className="default-btn"
                 >
-                  Guide
+                  View PDF
                 </Link>
               </div>
             </div>

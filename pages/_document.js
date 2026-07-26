@@ -8,8 +8,9 @@ import Document, {
   class MyDocument extends Document {
     render() {
       return (
-        <Html lang="zxx">
+        <Html lang="en">
           <Head>
+            <meta charSet="UTF-8" />
             <link
               href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap"
               rel="stylesheet"
@@ -18,7 +19,7 @@ import Document, {
               href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap"
               rel="stylesheet"
             />
-            <link rel="icon" type="image/png" href="/images/favicon.png"></link>
+            <link rel="icon" type="image/x-icon" href="/favicon.ico" />
           </Head>
           <body>
             <Main />

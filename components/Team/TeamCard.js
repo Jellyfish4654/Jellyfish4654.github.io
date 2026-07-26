@@ -50,7 +50,7 @@ const TeamCard = () => {
     <>
       <section className="team-area ptb-100">
         <div className="container">
-          <h1 style={{paddingBottom: '1rem'}}>Meet the Board</h1>
+          <h1 style={{paddingBottom: '1rem'}}>Meet the 2026-27 Board</h1>
           <div className="row justify-content-center">
             {teamData &&
               teamData.map((value, i) => (

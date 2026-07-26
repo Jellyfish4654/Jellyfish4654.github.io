@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import guideIMG from "../../public/images/guide-img.png";
+import ftcIMG from "../../public/images/ftc-logo.png";
 
 const Guide = () => {
   return (
@@ -17,11 +18,11 @@ const Guide = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                <Image src={guideIMG} alt="Image" width={432} height={432} />
+                <Image src={ftcIMG} alt="Image" width={432} height={432} />
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6" style={{ backgroundColor: `#fff`, padding: '30px', boxShadow: '0 0 20px 3px rgba(0, 0, 0, 0.1)', borderRadius: '10px'}}>
               <div
                 className="guide-content"
                 data-aos="fade-in"

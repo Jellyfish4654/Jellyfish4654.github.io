@@ -705,6 +705,7 @@ textarea {
     transition: $transition;
 
     .navbar-brand {
+      width: 130px;
       .logo {
         color: #ffffff;
         font-weight: bold;
@@ -1038,14 +1039,13 @@ textarea {
 // Navbar toggler
 .navbar-toggler {
   border: none;
-  background: #eee !important;
   padding: 10px;
   border-radius: 0;
 
   .icon-bar {
     width: 28px;
     transition: all 0.3s;
-    background: $main-color;
+    background: #fff;
     height: 2px;
     display: block;
   }
@@ -2130,6 +2130,7 @@ textarea {
     margin-bottom: 25px;
     font-size: 25px;
     font-weight: bold;
+    width: 180px;
   }
   p {
     color: #d9d6d6;
@@ -3178,7 +3179,7 @@ $sub-content-color-home-four: #e7e7e7;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.3); // 0.1
   margin-bottom: 30px;
   transition: $transition;
-  background-color: #071c45; //#fff
+  background-color: #071c45; //#071c45; //#fff
   border-radius: 30px;
   corner-shape: squircle;
   * {

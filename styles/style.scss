@@ -2114,7 +2114,8 @@ textarea {
         text-decoration: underline;
       }
       img {
-        width: 120px;
+        max-height: 80px;
+        max-width: 130px;
       }
     }
   }
@@ -2229,8 +2230,6 @@ textarea {
         &:hover {
           transform: translateX(0px);
           animation: tada 1s linear;
-        }
-        i {
           color: $white-color;
         }
       }

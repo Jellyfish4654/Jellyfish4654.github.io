@@ -34,8 +34,12 @@ const MainBanner = () => {
             </div>
 
             <div className="col-lg-5">
-              {/* Responsive Logo */}
-              <div className="banner-main-img banner-one-main-img">
+             {/*Responsive Logo*/}
+              <div className="banner-main-img banner-one-main-img"
+                   data-aos="fade-in"
+                   data-aos-duration="1200"
+                   data-aos-delay="300"
+              >
                 <img src="/images/home-one/jellogo.png"
                   alt="Image"
                 />

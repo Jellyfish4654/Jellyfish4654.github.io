@@ -1,7 +1,6 @@
 @media only screen and (max-width: 767px) {
     .navbar-area {
         .navbar-brand {
-            padding-top: 0;
             img {
                 max-width: 130px;
             }
@@ -1184,9 +1183,6 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-area {
         nav {
-            .container {
-                padding: 0;
-            }
             .navbar-brand {
                 img {
                     max-width: 110px;

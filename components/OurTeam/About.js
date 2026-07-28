@@ -17,23 +17,23 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 <h2>
-                  Our Team
+                  What We Do
                 </h2>
-                <p>FIRST Tech Challenge is an exciting and competitive robotics program that challenges teams to design,
-                  build, program, and operate robots in a head-to-head alliance format.
-                  Through this program, students have the opportunity to develop crucial STEM skills and apply engineering principles,
-                  all while learning the importance of teamwork, innovation, and hard work.
-                  Participating in FTC can also open up opportunities for students to apply for
-                  scholarships and internships offered by universities and companies that support FIRST programs.</p>
+                <p>FIRST Tech Challenge team 4654 Jellyfish was founded in 2010 and we are proud to represent our school in the FIRST Tech Challenge.
+                  We compete in the New York - Excelsior Region, covering all of NY State except for NYC and Long Island.
+                  Our goal is to inspire a love of STEM in our members and make a positive impact in our community.</p>
 
-                <p>Our team, 4654, was founded in 2010 and we are proud to compete in the NY Excelsior Region.
-                  This region encompasses all of New York State except for New York City and Long Island,
-                  and we are excited to represent our school at regional and global competitions.
-                  By participating in this competition, we hope to inspire a love of STEM in our members and make a positive impact in our community.</p>
+                <p>The FIRST Tech Challenge is a global robotics competition that challenges teams to design,
+                  build, and program robots they drive in 2v2 alliance matches. By participating,
+                  students can learn mechanical engineering, computer science, computer-aided design,
+                  graphic design, and more. Team members also learn how to collaborate in large groups,
+                  act with Gracious Professionalism ®, and manage time effectively. Finally, participating in FTC
+                  often creates opportunities for students to apply for scholarships and internships offered by
+                  universities and companies that support FIRST programs.</p>
 
-                <Link href="https://www.firstinspires.org/robotics/ftc" className="default-btn">
-                  Learn More
-                </Link>
+                <a href="https://www.firstinspires.org/programs/ftc" className="default-btn" target="_blank" rel="noopener noreferrer">
+                  Learn More About FTC
+                </a>
               </div>
             </div>
           </div>

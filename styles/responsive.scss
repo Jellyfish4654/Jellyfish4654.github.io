@@ -211,6 +211,7 @@
         }
     }
     .about-img {
+        margin-right: 0;
         margin-bottom: 30px;
         text-align: center;
     }
@@ -427,9 +428,6 @@
     }
     .banner-four-main-img {
         margin-top: 30px;
-    }
-    .single-team {
-
     }
     .slider-item {
         .slider-text {
@@ -1044,9 +1042,15 @@
             }
         }
     }
-    .single-team {
-        margin-left: 10px;
-        margin-right: 10px;
+    .team-area {
+        .row {
+            padding-top: 10px;
+        }
+        .single-team {
+            max-width: 20em;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }
 
@@ -1312,6 +1316,7 @@
         }
     }
     .about-img {
+        margin-right: 0;
         margin-bottom: 30px;
         text-align: center;
     }

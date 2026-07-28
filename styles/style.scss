@@ -69,6 +69,7 @@ p {
   font-size: 15px;
   margin-bottom: 15px;
   line-height: 1.8;
+  text-wrap: pretty;
   &:last-child {
     margin-bottom: 0;
   }
@@ -3191,7 +3192,7 @@ $sub-content-color-home-four: #e7e7e7;
   margin-bottom: 30px;
   transition: $transition;
   background-color: #071c45;
-  border-radius: 30px;
+  border-radius: 40px;
   corner-shape: squircle;
   * {
     color: #fff !important;
@@ -3701,15 +3702,6 @@ $sub-content-color-home-four: #e7e7e7;
     }
     span {
       color: $body-color;
-    }
-  }
-}
-
-.team-inner-area {
-  .single-team {
-    background-color: #060542;
-    &:hover {
-      transform: translateY(-5px);
     }
   }
 }

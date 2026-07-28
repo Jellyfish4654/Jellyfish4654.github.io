@@ -16,9 +16,9 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6">
               <div
                 className="single-widget"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="200"
+                // data-aos="fade-in"
+                // data-aos-duration="1200"
+                // data-aos-delay="200"
               >
                 <Link href="/" className="logo">
                   <img src="/images/white-logo.png" alt="Image" />
@@ -49,9 +49,9 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <div
                 className="single-widget"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="300"
+                // data-aos="fade-in"
+                // data-aos-duration="1200"
+                // data-aos-delay="300"
               >
                 <h3>Important Links</h3>
                 <ul>
@@ -80,9 +80,9 @@ const Footer = () => {
             <div className="col-lg-5 col-md-6">
               <div
                 className="single-widget"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="400"
+                // data-aos="fade-in"
+                // data-aos-duration="1200"
+                // data-aos-delay="400"
               >
                 <h3>Sponsors</h3>
 

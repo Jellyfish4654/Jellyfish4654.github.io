@@ -13,9 +13,9 @@ const CustomForm = () => {
     render={({ subscribe, status, message }) => (
 
         <div className="subscribe-form"
-             data-aos="fade-in"
-             data-aos-duration="1200"
-             data-aos-delay="250"
+             // data-aos="fade-in"
+             // data-aos-duration="1200"
+             // data-aos-delay="250"
         >
             <h3>Subscribe to our newsletter!</h3>
             <SimpleForm onSubmitted={formData => subscribe(formData)} />

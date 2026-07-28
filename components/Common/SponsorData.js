@@ -53,9 +53,9 @@ const SponsorTier = ({ sponsorData }) => (
           {sponsorData.map((value, i) => (
             <div
               className="single-brand"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay={value.aosDelay}
+              // data-aos="fade-in"
+              // data-aos-duration="1200"
+              // data-aos-delay={value.aosDelay}
               key={i}
             >
               <a href={value.url} target="_blank" rel="noopener noreferrer">

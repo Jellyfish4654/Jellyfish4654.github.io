@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import About from "../components/OurTeam/About";
+import WhatWeDo from "../components/OurTeam/WhatWeDo";
 import TeamCard from "../components/Team/TeamCard";
 import Footer from "../components/Layouts/Footer";
 
-export default function AboutUs() {
+export default function About() {
   return (
     <>
       <Navbar />
@@ -17,7 +17,7 @@ export default function AboutUs() {
         activePageText="Our Team"
       />
 
-      <About />
+      <WhatWeDo />
 
       <TeamCard />
 

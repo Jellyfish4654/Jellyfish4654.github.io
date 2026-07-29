@@ -4,19 +4,22 @@
         <loc>https://jellyfishbbhs.com/</loc>
     </url>
     <url>
-        <loc>https://jellyfishbbhs.com/about-us</loc>
+        <loc>https://jellyfishbbhs.com/about/</loc>
     </url>
     <url>
-        <loc>https://jellyfishbbhs.com/juniorjellies</loc>
+        <loc>https://jellyfishbbhs.com/juniorjellies/</loc>
+    </url>
+<!--    <url>-->
+<!--        <loc>https://jellyfishbbhs.com/impact/</loc>-->
+<!--    </url>-->
+    <url>
+        <loc>https://jellyfishbbhs.com/sponsors/</loc>
     </url>
     <url>
-        <loc>https://jellyfishbbhs.com/news</loc>
+        <loc>https://jellyfishbbhs.com/news/</loc>
     </url>
     <url>
-        <loc>https://jellyfishbbhs.com/sponsors</loc>
-    </url>
-    <url>
-        <loc>https://jellyfishbbhs.com/news/albany_2023_2024</loc>
+        <loc>https://jellyfishbbhs.com/news/albany_2023_2024/</loc>
     </url>
     <url>
         <loc>https://jellyfishbbhs.com/news/centerstage/</loc>

@@ -4,10 +4,10 @@ import Link from "next/link";
 const featuresData = [
   {
     iconName: "flaticon-team",
-    title: "Our Team",
+    title: "About",
     shortText:
       "What we do and our leadership",
-    viewDetails: "/about-us",
+    viewDetails: "/about",
     aosDelay: "100",
   },
   {
@@ -18,6 +18,14 @@ const featuresData = [
     viewDetails: "/juniorjellies",
     aosDelay: "200",
   },
+  // {
+  //   iconName: "flaticon-sponsor",
+  //   title: "Our Impact",
+  //   shortText:
+  //     "How we improve our community",
+  //   viewDetails: "/impact",
+  //   aosDelay: "300",
+  // },
   {
     iconName: "flaticon-sponsor",
     title: "Sponsors",

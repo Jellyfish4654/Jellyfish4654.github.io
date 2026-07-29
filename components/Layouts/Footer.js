@@ -56,19 +56,25 @@ const Footer = () => {
                 <h3>Important Links</h3>
                 <ul>
                   <li>
-                    <Link href="/about-us">
+                    <Link href="/about/">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/juniorjellies">
+                    <Link href="/juniorjellies/">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Junior Jellies
                     </Link>
                   </li>
+                  {/*<li>*/}
+                  {/*  <Link href="/impact/">*/}
+                  {/*    <i className="right-icon bx bx-chevrons-right"></i>*/}
+                  {/*    Our Impact*/}
+                  {/*  </Link>*/}
+                  {/*</li>*/}
                   <li>
-                    <Link href="/sponsors">
+                    <Link href="/sponsors/">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Sponsors
                     </Link>
@@ -84,7 +90,9 @@ const Footer = () => {
                 // data-aos-duration="1200"
                 // data-aos-delay="400"
               >
-                <h3>Sponsors</h3>
+                <Link href="/sponsors/" className="title-link">
+                  <h3>Sponsors</h3>
+                </Link>
 
                 <div className="footer-sponsors">
                     {/*<i className="flaticon-envelope"></i>*/}

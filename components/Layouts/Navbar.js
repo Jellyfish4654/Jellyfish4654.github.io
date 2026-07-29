@@ -19,7 +19,7 @@ const Navbar = () => {
   React.useEffect(() => {
     let elementId = document.getElementById("navbar");
     document.addEventListener("scroll", () => {
-      if (window.scrollY > 150) {
+      if (window.scrollY > ((router.asPath === "/") ? 150 : 40)) {
         elementId.classList.add("is-sticky");
       } else {
         elementId.classList.remove("is-sticky");
@@ -65,7 +65,8 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     href="/"
-                    className={`nav-link ${currentPath == "/" && "active"}`}
+                    className={`nav-link ${currentPath == "/" && "active"
+                    }`}
                   >
                     Home 
                   </Link>
@@ -73,23 +74,12 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/about-us/"
+                    href="/about/"
                     className={`nav-link ${
-                      currentPath == "/about-us/" && "active"
+                      currentPath == "/about/" && "active"
                     }`}
                   >
-                    Our Team
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/sponsors/"
-                    className={`nav-link ${
-                      currentPath == "/sponsors/" && "active"
-                    }`}
-                  >
-                    Sponsors
+                    About
                   </Link>
                 </li>
 
@@ -101,6 +91,28 @@ const Navbar = () => {
                     }`}
                   >
                     Junior Jellies 
+                  </Link>
+                </li>
+
+                {/*<li className="nav-item">*/}
+                {/*  <Link*/}
+                {/*      href="/impact/"*/}
+                {/*      className={`nav-link ${*/}
+                {/*          currentPath == "/impact/" && "active"*/}
+                {/*      }`}*/}
+                {/*  >*/}
+                {/*    Our Impact*/}
+                {/*  </Link>*/}
+                {/*</li>*/}
+
+                <li className="nav-item">
+                  <Link
+                    href="/sponsors/"
+                    className={`nav-link ${
+                      currentPath == "/sponsors/" && "active"
+                    }`}
+                  >
+                    Sponsors
                   </Link>
                 </li>
 

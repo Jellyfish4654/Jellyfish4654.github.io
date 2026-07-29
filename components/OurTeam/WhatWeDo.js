@@ -19,10 +19,10 @@ const WhatWeDo = () => {
                 <h2>
                   What We Do
                 </h2>
-                <p>FIRST Tech Challenge team 4654 Jellyfish was founded in 2010, and we are proud to represent our school
-                  at regional and international competitions. We compete in the New York Excelsior Region, covering
-                  all of NY State except for NYC and Long Island. Our goal is to inspire a love of STEM in our members
-                  and make a positive impact in our community.</p>
+                <p>FIRST Tech Challenge team 4654 Jellyfish was founded in 2010 in Rye Brook, NY. We are proud to
+                  represent our school, Blind Brook High School, at regional and international competitions.
+                  We compete in the New York Excelsior Region, covering all of NY State except for NYC and Long Island.
+                  Our goal is to inspire a love of STEM in our members and make a positive impact in our community.</p>
 
                 <p>The FIRST Tech Challenge is a global robotics competition that challenges teams to design,
                   build, and program robots they drive in 2v2 alliance matches. By participating,

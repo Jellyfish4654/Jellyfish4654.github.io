@@ -701,9 +701,10 @@ textarea {
 
 .navbar-area {
   .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: calc(100vw - 35px);
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 25px;
+    width: calc(100vw - 40px);
     max-width: 1500px !important;
     .navbar-collapse {
       flex-grow: 0;
@@ -711,8 +712,8 @@ textarea {
   }
 
   nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: $transition;
 
     .navbar-brand {
@@ -1041,8 +1042,6 @@ textarea {
   &.is-sticky {
     nav {
       background-color: $black-color;
-      padding-top: 20px;
-      padding-bottom: 20px;
     }
   }
 }

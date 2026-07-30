@@ -10,18 +10,20 @@
             }
         }
         nav {
-            background-color: #000000;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            background-color: hsl(0 0% 10% / 0.6);
+            backdrop-filter: blur(10px) saturate(180%);
+            box-shadow: 0 0 32px hsl(0 0% 10% / 0),
+            inset 0 0 30px hsl(0 0% 40% / 0.3);
+            border-top: 1px solid hsl(0 0% 80% / 0.3);
+            border-bottom: 1px solid hsl(0 0% 50% / 0.3);
+            border-radius: 29px !important;
 
             .navbar-collapse {
+                transition: all 0.4s ease; // wipe animation
                 display: unset;
                 margin-left: 5px;
-                transition: all 0.3s ease;
-                overflow: hidden;
                 max-height: 250px; // MUST BE UPDATED WHEN MENU SIZE CHANGES
                 box-sizing: border-box;
-
 
                 &:not(.show) {
                     max-height: 0;
@@ -104,13 +106,6 @@
             .default-btn {
                 padding: 10px 20px;
                 font-size: 14px;
-            }
-        }
-
-        &.is-sticky {
-            nav {
-                padding-top: 10px;
-                padding-bottom: 10px;
             }
         }
     }
@@ -1209,20 +1204,12 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-area {
         nav {
-            .navbar-brand {
-                img {
-                    max-width: 110px;
-                }
-                .logo {
-                    font-size: 22px;
-                }
-            }
             .navbar-nav {
                 .nav-item {
                     a {
-                        font-size: 14px;
-                        margin-left: 6px;
-                        margin-right: 6px;
+                        //font-size: 14px;
+                        margin-left: 10px;
+                        margin-right: 10px;
                     }
                 }
             }
@@ -1684,7 +1671,7 @@
             .navbar-nav {
                 .nav-item {
                     a {
-                        margin: 0 8px;
+                        //margin: 0 8px;
                     }
                 }
             }
@@ -1965,6 +1952,12 @@
         padding-left: 75px;
         i {
             left: 20px;
+        }
+    }
+
+    .team-area {
+        .container {
+            max-width: 98%;
         }
     }
 }

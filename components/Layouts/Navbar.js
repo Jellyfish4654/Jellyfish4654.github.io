@@ -16,7 +16,7 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setMenu(!menu);
   };
-  React.useEffect(() => {
+  useEffect(() => {
     let elementId = document.getElementById("navbar");
     document.addEventListener("scroll", () => {
       if (window.scrollY > ((router.asPath === "/") ? 150 : 40)) {
@@ -25,6 +25,10 @@ const Navbar = () => {
         elementId.classList.remove("is-sticky");
       }
     });
+
+    window.addEventListener("scroll", () => {
+      setMenu(true)
+    })
   });
 
   const classOne = menu

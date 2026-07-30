@@ -16,19 +16,15 @@
 
             .navbar-collapse {
                 display: unset;
-                position: absolute;
-                top: 70px;
-                left: 0;
-                background: black;
-                width: 100vw;
-                padding: 0 0 11px 20px;
+                margin-left: 5px;
                 transition: all 0.3s ease;
-                z-index: -10;
-                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                overflow: hidden;
+                max-height: 250px; // MUST BE UPDATED WHEN MENU SIZE CHANGES
+                box-sizing: border-box;
+
 
                 &:not(.show) {
-                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-                    //transform: translateY(-100%);
+                    max-height: 0;
                 }
             }
 
@@ -36,6 +32,10 @@
                 overflow-y: auto;
                 max-height: 70vh;
                 padding-right: 15px;
+
+                :nth-child(1) {
+                    margin-top: 8px;
+                }
 
                 &::-webkit-scrollbar {
                     width: 12px;

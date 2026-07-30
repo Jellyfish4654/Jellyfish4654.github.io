@@ -1054,15 +1054,14 @@ textarea {
 
   .icon-bar {
     width: 28px;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
     background: #fff;
     height: 2px;
     display: block;
+    transform-origin: 90%;
   }
   .top-bar {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
-    left: 4px;
+    transform: rotate(-45deg);
     position: relative;
   }
   .middle-bar {
@@ -1070,22 +1069,18 @@ textarea {
     margin: 6px 0;
   }
   .bottom-bar {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
-    left: 4px;
+    transform: rotate(45deg);
     position: relative;
   }
   &.collapsed {
     .top-bar {
       transform: rotate(0);
-      left: 0;
     }
     .middle-bar {
       opacity: 1;
     }
     .bottom-bar {
       transform: rotate(0);
-      left: 0;
     }
   }
 }

@@ -1,5 +1,9 @@
 @media only screen and (max-width: 767px) {
     .navbar-area {
+        .container {
+            margin-right: 15px;
+            width: calc(100vw - 30px);
+        }
         .navbar-brand {
             img {
                 max-width: 130px;
@@ -9,6 +13,24 @@
             background-color: #000000;
             padding-top: 10px;
             padding-bottom: 10px;
+
+            .navbar-collapse {
+                display: unset;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                background: black;
+                width: 100vw;
+                padding: 0 0 11px 20px;
+                transition: all 0.3s ease;
+                z-index: -10;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+                &:not(.show) {
+                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                    //transform: translateY(-100%);
+                }
+            }
 
             .navbar-nav {
                 overflow-y: auto;

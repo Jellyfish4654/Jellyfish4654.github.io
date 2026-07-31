@@ -98,13 +98,15 @@ const Footer = () => {
                     {/*<i className="flaticon-envelope"></i>*/}
                     {/*<span>Email</span>*/}
                     {/*bbhsrobotics4654@gmail.com*/}
-                  {[...sponsorDataTier3, ...sponsorDataTier2].map((value) => (
-                      <a className="footer-sponsor" href={value.url} target="_blank" rel="noopener noreferrer">
+                  {sponsorDataTier3.map((value) => (
+                      <a className="tier3" href={value.url} target="_blank" rel="noopener noreferrer">
                         <img style={ value.background ? {backgroundColor: "white", borderRadius: "50%"} : {}} src={value.image} alt={value.name} />
                       </a>
                   ))}
-                  {sponsorDataTier1.map((value) => (
-                      <a href={value.url} target="_blank" rel="noopener noreferrer">{value.name}</a>
+                  {sponsorDataTier2.map((value) => (
+                      <a className="tier2" href={value.url} target="_blank" rel="noopener noreferrer">
+                        <img style={ value.background ? {backgroundColor: "white", borderRadius: "50%"} : {}} src={value.image} alt={value.name} />
+                      </a>
                   ))}
 
 

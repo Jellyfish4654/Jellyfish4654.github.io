@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../../components/Layouts/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import NewsDetailsContent from "../../components/News/post/Albany_2023_2024";
-import Footer from "../../components/Layouts/Footer";
+import Navbar from "../../components/navigation/Navbar";
+import PageBanner from "../../components/shared/PageBanner";
+import NewsDetailsContent from "../../components/news/post/Albany_2023_2024";
+import Footer from "../../components/navigation/Footer";
 
 export default function NewsDetails() {
   return (

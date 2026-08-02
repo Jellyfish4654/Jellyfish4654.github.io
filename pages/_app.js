@@ -14,7 +14,7 @@ import "../styles/style.scss";
 import "../styles/responsive.scss";
 
 import Head from "next/head";
-import GoTop from "../components/Shared/GoTop";
+import GoToTop from "../components/shared/GoToTop";
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
 
       {/* Go Top Button */}
-      <GoTop/>
+      <GoToTop/>
     </>
   );
 }

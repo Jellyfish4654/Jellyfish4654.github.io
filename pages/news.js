@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import News  from "../components/News/NewsGrid";
-import Footer from "../components/Layouts/Footer";
+import Navbar from "../components/navigation/Navbar";
+import PageBanner from "../components/shared/PageBanner";
+import News  from "../components/news/NewsGrid";
+import Footer from "../components/navigation/Footer";
 
 export default function NewsGrid() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import { SponsorTier1, SponsorTier2, SponsorTier3, PartnerTier } from "../components/Common/SponsorData";
-import Footer from "../components/Layouts/Footer";
+import Navbar from "../components/navigation/Navbar";
+import PageBanner from "../components/shared/PageBanner";
+import { SponsorTier1, SponsorTier2, SponsorTier3, PartnerTier } from "../components/SponsorData";
+import Footer from "../components/navigation/Footer";
 
 export default function SponsorPage() {
   return (

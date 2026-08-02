@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import GoogleTag from "../Common/GoogleTag";
+import GoogleTag from "../shared/GoogleTag";
 
 const Navbar = () => {
   // Add active class

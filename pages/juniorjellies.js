@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import JJOverview from "../components/JuniorJellies/JJOverview";
-import Footer from "../components/Layouts/Footer";
-import JJPrograms from "../components/JuniorJellies/Programs";
+import Navbar from "../components/navigation/Navbar";
+import PageBanner from "../components/shared/PageBanner";
+import JJOverview from "../components/juniorJellies/JJOverview";
+import Footer from "../components/navigation/Footer";
+import JJPrograms from "../components/juniorJellies/Programs";
 
 export default function juniorjellies() {
   return (

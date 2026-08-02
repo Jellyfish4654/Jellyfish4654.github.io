@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import SubscribeForm from "../SubscribeForm.js";
-import { sponsorDataTier3, sponsorDataTier2, sponsorDataTier1 } from "../Common/SponsorData";
+import { sponsorDataTier3, sponsorDataTier2, sponsorDataTier1 } from "../SponsorData";
 
 
 const Footer = () => {

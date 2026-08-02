@@ -7,7 +7,7 @@ function scrollToTop() {
   });
 }
 
-const GoTop = () => {
+const GoToTop = () => {
   useEffect(() => {
     const button = document.getElementById("scroll-to-top");
     if (button != null) {
@@ -22,10 +22,10 @@ const GoTop = () => {
   }, []);
 
   return (
-      <div id="scroll-to-top" onClick={() => scrollToTop()}>
-          <i className="bx bx-chevrons-up"></i>
-      </div>
+      <button id="scroll-to-top" onClick={() => scrollToTop()} title="Scroll to top">
+          <i className="bx bx-chevron-up"></i>
+      </button>
   );
 }
 
-export default GoTop;
+export default GoToTop;

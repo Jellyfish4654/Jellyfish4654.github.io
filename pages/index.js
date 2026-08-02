@@ -1,17 +1,13 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import Navbar from "../components/Layouts/Navbar";
-import MainBanner from "../components/HomeOne/MainBanner";
-import Features from "../components/HomeOne/Features";
-import Footer from "../components/Layouts/Footer";
-import GoogleTag from "../components/Common/GoogleTag";
-import Guide from "../components/HomeOne/Guide";
+import Navbar from "../components/navigation/Navbar";
+import MainBanner from "../components/home/MainBanner";
+import Features from "../components/home/Features";
+import Footer from "../components/navigation/Footer";
+import Guide from "../components/home/Guide";
 
 export default function Index() {
   return (
     <>
-      <GoogleTag />
-
       <Navbar />
 
       <MainBanner />

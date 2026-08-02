@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import WhatWeDo from "../components/About/WhatWeDo";
-import TeamCard from "../components/About/TeamCard";
-import Footer from "../components/Layouts/Footer";
+import Navbar from "../components/navigation/Navbar";
+import PageBanner from "../components/shared/PageBanner";
+import WhatWeDo from "../components/about/WhatWeDo";
+import TeamCard from "../components/about/TeamCard";
+import Footer from "../components/navigation/Footer";
 
 export default function About() {
   return (

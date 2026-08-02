@@ -1,50 +1,31 @@
-import React, { Component } from "react";
+import {useEffect} from "react";
 
-export default class GoTop extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      is_visible: false,
-    };
-  }
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
 
-  componentDidMount() {
-    var scrollComponent = this;
-    document.addEventListener("scroll", function (e) {
-      scrollComponent.toggleVisibility();
-    });
-  }
-
-  toggleVisibility() {
-    if (window.pageYOffset > 300) {
-      this.setState({
-        is_visible: true,
-      });
-    } else {
-      this.setState({
-        is_visible: false,
+const GoTop = () => {
+  useEffect(() => {
+    const button = document.getElementById("scroll-to-top");
+    if (button != null) {
+      document.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          button.classList.add("show");
+        } else {
+          button.classList.remove("show");
+        }
       });
     }
-  }
+  }, []);
 
-  scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
-
-  render() {
-    const { is_visible } = this.state;
-    return (
-      <div className="scroll-to-top">
-        {is_visible && (
-          <div className="top" onClick={() => this.scrollToTop()}>
-            <i className="bx bx-chevrons-up"></i>
-            <i className="bx bx-chevrons-up bx-fade-up"></i>
-          </div>
-        )}
+  return (
+      <div id="scroll-to-top" onClick={() => scrollToTop()}>
+          <i className="bx bx-chevrons-up"></i>
       </div>
-    );
-  }
+  );
 }
+
+export default GoTop;

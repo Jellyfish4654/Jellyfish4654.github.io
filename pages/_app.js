@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
 
       {/* Go Top Button */}
-      <GoTop scrollStepInPx="100" delayInMs="10.50" />
+      <GoTop/>
     </>
   );
 }

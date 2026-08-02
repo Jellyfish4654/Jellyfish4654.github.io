@@ -1061,6 +1061,7 @@ textarea {
     height: 2px;
     display: block;
     transform-origin: 90%;
+    will-change: opacity, transform;
   }
   .top-bar {
     transform: rotate(-45deg);
